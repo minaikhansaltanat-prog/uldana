@@ -1,0 +1,2442 @@
+<!doctype html>
+<html lang="ru" data-lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Улдана Оспанбек — Архитектор маркетинга и продаж в эпоху ИИ</title>
+<meta name="description" content="Managing Partner, CEO и специалист по автоматизации маркетинга и продаж на базе искусственного интеллекта. Один эксперт заменяет целый маркетинговый отдел.">
+<meta property="og:title" content="Улдана Оспанбек — Архитектор маркетинга и продаж в эпоху ИИ">
+<meta property="og:description" content="Маркетинг и продажи полного цикла на базе искусственного интеллекта.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230f1f3d%22/><text x=%2250%22 y=%2266%22 font-family=%22Georgia,serif%22 font-size=%2255%22 fill=%22%23d9af56%22 text-anchor=%22middle%22>U</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{
+  --bg:#FAF7F1;
+  --bg-2:#F2EDE2;
+  --surface:#FFFFFF;
+  --surface-glass:rgba(255,255,255,0.62);
+  --surface-glass-strong:rgba(255,255,255,0.82);
+  --text:#12182B;
+  --text-muted:#4B5468;
+  --text-soft:#6B7280;
+  --border:rgba(18,24,43,0.09);
+  --border-strong:rgba(18,24,43,0.16);
+  --accent:#B8862E;
+  --accent-2:#D9AF56;
+  --accent-ink:#0F1F3D;
+  --navy:#0F1F3D;
+  --navy-deep:#0A1628;
+  --shadow-rgb:15,23,42;
+  --grain-opacity:0.035;
+  --radius-sm:12px;
+  --radius-md:20px;
+  --radius-lg:28px;
+  --radius-xl:36px;
+  --header-h:84px;
+  --ease-spring:cubic-bezier(.22,1,.36,1);
+}
+html[data-theme="dark"]{
+  --bg:#0A1220;
+  --bg-2:#0D1830;
+  --surface:#101B33;
+  --surface-glass:rgba(16,27,51,0.58);
+  --surface-glass-strong:rgba(16,27,51,0.82);
+  --text:#F5F1E8;
+  --text-muted:#B9C0D4;
+  --text-soft:#8891A8;
+  --border:rgba(245,241,232,0.09);
+  --border-strong:rgba(245,241,232,0.18);
+  --accent:#D9AF56;
+  --accent-2:#E9C878;
+  --accent-ink:#F5F1E8;
+  --navy:#0F1F3D;
+  --navy-deep:#060B14;
+  --shadow-rgb:0,0,0;
+  --grain-opacity:0.05;
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+html,body{
+  overflow-x:hidden;
+  width:100%;
+  max-width:100vw;
+  overscroll-behavior-x:none;
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Inter',system-ui,sans-serif;
+  line-height:1.7;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  transition:background .4s var(--ease-spring),color .4s var(--ease-spring);
+  position:relative;
+}
+h1,h2,h3,h4,.font-display{
+  font-family:'Fraunces',Georgia,serif;
+  font-weight:600;
+  letter-spacing:-0.03em;
+  line-height:1.08;
+  margin:0;
+}
+p{margin:0;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;background:none;border:none;color:inherit;}
+img{max-width:100%;display:block;}
+ul{margin:0;padding:0;list-style:none;}
+input,textarea{font-family:inherit;font-size:16px;}
+
+::selection{background:var(--accent-2);color:var(--navy-deep);}
+
+.container{
+  width:100%;
+  max-width:1240px;
+  margin:0 auto;
+  padding-left:24px;
+  padding-right:24px;
+}
+@media (max-width:640px){
+  .container{padding-left:18px;padding-right:18px;}
+}
+
+.grain{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:2;
+  opacity:var(--grain-opacity);
+  mix-blend-mode:overlay;
+}
+
+.section{
+  position:relative;
+  padding:120px 0;
+}
+@media (max-width:900px){
+  .section{padding:80px 0;}
+}
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:18px;
+}
+.eyebrow::before{
+  content:"";
+  width:22px;height:1px;
+  background:var(--accent);
+}
+.section-head{
+  max-width:680px;
+  margin-bottom:64px;
+}
+.section-title{
+  font-size:clamp(32px,4.4vw,52px);
+}
+.section-sub{
+  margin-top:18px;
+  color:var(--text-muted);
+  font-size:clamp(16px,1.6vw,18px);
+  max-width:560px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  padding:16px 30px;
+  border-radius:999px;
+  font-size:15px;
+  font-weight:600;
+  letter-spacing:0.01em;
+  white-space:nowrap;
+  transition:transform .35s var(--ease-spring),box-shadow .35s var(--ease-spring),background-color .35s var(--ease-spring);
+  will-change:transform;
+}
+.btn:active{transform:scale(0.96);}
+.btn-primary{
+  background:var(--navy);
+  color:#F5F1E8;
+  box-shadow:0 1px 1px rgba(var(--shadow-rgb),.06),0 12px 24px -8px rgba(15,31,61,.45);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 1px 1px rgba(var(--shadow-rgb),.08),0 18px 32px -10px rgba(15,31,61,.55);}
+.btn-primary:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;}
+.btn-gold{
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  color:var(--navy-deep);
+  box-shadow:0 1px 1px rgba(184,134,46,.2),0 14px 26px -10px rgba(184,134,46,.55);
+}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 1px 1px rgba(184,134,46,.25),0 20px 34px -10px rgba(184,134,46,.6);}
+.btn-gold:focus-visible{outline:2px solid var(--navy);outline-offset:3px;}
+.btn-ghost{
+  border:1px solid var(--border-strong);
+  color:var(--text);
+  background:var(--surface-glass);
+  backdrop-filter:blur(16px);
+}
+.btn-ghost:hover{transform:translateY(-2px);border-color:var(--accent);background:var(--surface-glass-strong);}
+.btn-ghost:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+.btn-sm{padding:11px 20px;font-size:13px;}
+
+.glass{
+  background:var(--surface-glass);
+  backdrop-filter:blur(20px) saturate(1.4);
+  -webkit-backdrop-filter:blur(20px) saturate(1.4);
+  border:1px solid var(--border);
+}
+.surface{
+  background:var(--surface);
+  border:1px solid var(--border);
+}
+.shadow-float{
+  box-shadow:0 1px 1px rgba(var(--shadow-rgb),.04),0 8px 16px -6px rgba(var(--shadow-rgb),.08),0 30px 60px -20px rgba(var(--shadow-rgb),.18);
+}
+.shadow-elevated{
+  box-shadow:0 1px 1px rgba(var(--shadow-rgb),.05),0 16px 30px -10px rgba(var(--shadow-rgb),.14),0 50px 90px -30px rgba(var(--shadow-rgb),.28);
+}
+
+.i18n-kz{display:none;}
+html[data-lang="kz"] .i18n-ru{display:none;}
+html[data-lang="kz"] .i18n-kz{display:revert;}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;scroll-behavior:auto !important;}
+}
+
+/* ===== HEADER ===== */
+.site-header{
+  position:fixed;
+  top:16px;
+  left:16px;
+  right:16px;
+  z-index:100;
+  margin:0 auto;
+  max-width:1240px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 12px 10px 22px;
+  border-radius:999px;
+  background:var(--surface-glass);
+  backdrop-filter:blur(22px) saturate(1.5);
+  -webkit-backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid var(--border);
+  box-shadow:0 1px 1px rgba(var(--shadow-rgb),.04),0 14px 30px -14px rgba(var(--shadow-rgb),.28);
+  transition:background .4s var(--ease-spring),border-color .4s var(--ease-spring);
+}
+@media (max-width:900px){
+  .site-header{top:12px;left:12px;right:12px;padding:8px 10px 8px 16px;}
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0;
+}
+.brand-mark{
+  width:38px;height:38px;
+  border-radius:50%;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;
+  font-weight:600;
+  font-size:18px;
+  color:var(--navy-deep);
+  flex-shrink:0;
+}
+.brand-text{display:flex;flex-direction:column;line-height:1.15;}
+.brand-name{font-family:'Fraunces',serif;font-weight:600;font-size:15px;letter-spacing:0.01em;}
+.brand-tag{font-size:10.5px;letter-spacing:0.09em;text-transform:uppercase;color:var(--text-soft);}
+@media (max-width:560px){ .brand-tag{display:none;} }
+
+.main-nav{display:flex;align-items:center;gap:2px;}
+.main-nav a{
+  padding:10px 16px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:500;
+  color:var(--text-muted);
+  transition:color .3s var(--ease-spring),background-color .3s var(--ease-spring);
+}
+.main-nav a:hover{color:var(--text);background:rgba(var(--shadow-rgb),.05);}
+@media (max-width:1080px){ .main-nav{display:none;} }
+
+.header-actions{display:flex;align-items:center;gap:8px;}
+@media (max-width:1080px){ .header-actions .btn-primary{display:none;} }
+
+.icon-btn{
+  width:40px;height:40px;
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--text);
+  transition:background-color .3s var(--ease-spring),transform .3s var(--ease-spring);
+  flex-shrink:0;
+}
+.icon-btn:hover{background:rgba(var(--shadow-rgb),.06);transform:translateY(-1px);}
+.icon-btn svg{width:19px;height:19px;}
+
+.lang-switch{
+  display:flex;
+  align-items:center;
+  gap:2px;
+  padding:3px;
+  border-radius:999px;
+  background:rgba(var(--shadow-rgb),.05);
+  flex-shrink:0;
+}
+.lang-switch button{
+  padding:6px 11px;
+  border-radius:999px;
+  font-size:12.5px;
+  font-weight:600;
+  letter-spacing:0.02em;
+  color:var(--text-soft);
+  transition:background-color .3s var(--ease-spring),color .3s var(--ease-spring);
+}
+html[data-lang="ru"] .lang-switch button[data-lang-btn="ru"],
+html[data-lang="kz"] .lang-switch button[data-lang-btn="kz"]{
+  background:var(--navy);
+  color:#F5F1E8;
+}
+
+.hamburger{
+  width:40px;height:40px;
+  border-radius:50%;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  transition:background-color .3s var(--ease-spring);
+}
+.hamburger:hover{background:rgba(var(--shadow-rgb),.06);}
+.hamburger span{
+  position:relative;
+  width:18px;height:14px;
+  display:block;
+}
+.hamburger span::before,.hamburger span::after,.hamburger .mid{
+  content:"";
+  position:absolute;
+  left:0;right:0;
+  height:2px;
+  border-radius:2px;
+  background:var(--text);
+  transition:transform .35s var(--ease-spring),opacity .35s var(--ease-spring),top .35s var(--ease-spring);
+}
+.hamburger span::before{top:0;}
+.hamburger .mid{top:6px;}
+.hamburger span::after{top:12px;}
+@media (max-width:1080px){ .hamburger{display:flex;} }
+
+.mobile-drawer{
+  position:fixed;
+  inset:0;
+  z-index:200;
+  visibility:hidden;
+  opacity:0;
+  transition:opacity .4s var(--ease-spring),visibility .4s var(--ease-spring);
+}
+.mobile-drawer.open{visibility:visible;opacity:1;}
+.mobile-drawer-backdrop{
+  position:absolute;inset:0;
+  background:rgba(10,16,32,.55);
+  backdrop-filter:blur(3px);
+}
+.mobile-drawer-panel{
+  position:absolute;
+  top:12px;right:12px;bottom:12px;
+  width:min(84vw,360px);
+  border-radius:var(--radius-lg);
+  background:var(--surface-glass-strong);
+  backdrop-filter:blur(24px) saturate(1.5);
+  border:1px solid var(--border);
+  box-shadow:0 30px 70px -20px rgba(var(--shadow-rgb),.4);
+  padding:22px 22px 28px;
+  display:flex;
+  flex-direction:column;
+  transform:translateX(24px) scale(.98);
+  opacity:0;
+  transition:transform .45s var(--ease-spring),opacity .4s var(--ease-spring);
+  overflow-y:auto;
+}
+.mobile-drawer.open .mobile-drawer-panel{transform:translateX(0) scale(1);opacity:1;}
+.mobile-drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;}
+.mobile-nav-links{display:flex;flex-direction:column;gap:2px;margin-bottom:24px;}
+.mobile-nav-links a{
+  padding:15px 6px;
+  font-size:20px;
+  font-family:'Fraunces',serif;
+  font-weight:500;
+  border-bottom:1px solid var(--border);
+  color:var(--text);
+  transition:color .3s var(--ease-spring),padding-left .3s var(--ease-spring);
+}
+.mobile-nav-links a:hover{color:var(--accent);padding-left:10px;}
+.mobile-drawer-bottom{margin-top:auto;display:flex;flex-direction:column;gap:14px;}
+.mobile-theme-toggle{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 16px;
+  border-radius:var(--radius-sm);
+  background:rgba(var(--shadow-rgb),.04);
+  font-size:14px;font-weight:500;
+}
+
+/* ===== HERO ===== */
+.hero{
+  position:relative;
+  padding:calc(var(--header-h) + 56px) 0 100px;
+  overflow:hidden;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  top:-20%;left:-10%;
+  width:70%;height:90%;
+  background:radial-gradient(circle,rgba(217,175,86,.22),transparent 65%);
+  pointer-events:none;
+  z-index:0;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  bottom:-30%;right:-10%;
+  width:60%;height:80%;
+  background:radial-gradient(circle,rgba(15,31,61,.14),transparent 65%);
+  pointer-events:none;
+  z-index:0;
+}
+html[data-theme="dark"] .hero::after{background:radial-gradient(circle,rgba(217,175,86,.08),transparent 65%);}
+.hero-grid{
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:1.05fr 0.95fr;
+  gap:48px;
+  align-items:center;
+}
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:52px;}
+}
+.hero-rating{
+  display:flex;align-items:center;gap:12px;
+  margin-top:28px;
+  font-size:13.5px;
+  color:var(--text-muted);
+}
+.hero-stars{display:flex;gap:3px;color:var(--accent);}
+.hero-stars svg{width:15px;height:15px;}
+.hero-title{font-size:clamp(36px,5.4vw,64px);max-width:640px;}
+.hero-title em{font-style:normal;color:var(--accent);}
+.hero-sub{
+  margin-top:24px;
+  font-size:clamp(16px,1.6vw,19px);
+  color:var(--text-muted);
+  max-width:520px;
+}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px;}
+.hero-stats{
+  display:flex;
+  gap:32px;
+  margin-top:56px;
+  flex-wrap:wrap;
+}
+.hero-stat-num{font-family:'Fraunces',serif;font-size:28px;color:var(--accent);}
+.hero-stat-label{font-size:12.5px;color:var(--text-soft);margin-top:4px;max-width:130px;}
+
+.hero-visual{position:relative;}
+.hero-photo-wrap{
+  position:relative;
+  border-radius:var(--radius-xl);
+  overflow:hidden;
+  aspect-ratio:4/5;
+  isolation:isolate;
+}
+.hero-photo-wrap img{
+  width:100%;height:100%;object-fit:cover;object-position:top center;
+}
+.hero-photo-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(15,31,61,0) 40%,rgba(10,16,32,.75) 100%);
+  z-index:1;
+}
+.hero-photo-tint{
+  position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(15,31,61,.35),rgba(217,175,86,.16));
+  mix-blend-mode:multiply;
+  z-index:1;
+}
+.hero-photo-caption{
+  position:absolute;left:24px;right:24px;bottom:22px;
+  z-index:2;
+  color:#F5F1E8;
+}
+.hero-photo-caption .name{font-family:'Fraunces',serif;font-size:21px;}
+.hero-photo-caption .role{font-size:12.5px;opacity:.8;margin-top:3px;letter-spacing:.02em;}
+.hero-float-card{
+  position:absolute;
+  padding:16px 18px;
+  border-radius:var(--radius-md);
+  z-index:3;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:190px;
+}
+.hero-float-card.card-1{top:8%;right:-8%;}
+.hero-float-card.card-2{bottom:8%;left:-9%;}
+@media (max-width:980px){
+  .hero-float-card.card-1{right:2%;top:6%;}
+  .hero-float-card.card-2{left:2%;bottom:6%;}
+}
+@media (max-width:560px){
+  .hero-float-card{padding:12px 14px;min-width:150px;}
+  .hero-float-card.card-1{top:4%;}
+}
+.hero-float-icon{
+  width:38px;height:38px;border-radius:50%;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.hero-float-icon svg{width:18px;height:18px;color:var(--navy-deep);}
+.hero-float-title{font-size:12.5px;color:var(--text-soft);}
+.hero-float-value{font-family:'Fraunces',serif;font-size:17px;margin-top:1px;}
+
+.marquee-strip{
+  position:relative;
+  z-index:1;
+  margin-top:90px;
+  padding:20px 0;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  overflow:hidden;
+  white-space:nowrap;
+}
+.marquee-track{
+  display:inline-flex;
+  gap:56px;
+  animation:marquee 32s linear infinite;
+}
+.marquee-track span{
+  font-family:'Fraunces',serif;
+  font-size:17px;
+  color:var(--text-soft);
+  display:inline-flex;
+  align-items:center;
+  gap:56px;
+}
+.marquee-track span::after{content:"◆";color:var(--accent);font-size:10px;margin-left:56px;}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ===== ABOUT ===== */
+.about-grid{
+  display:grid;
+  grid-template-columns:0.8fr 1.2fr;
+  gap:64px;
+  align-items:start;
+}
+@media (max-width:900px){ .about-grid{grid-template-columns:1fr;gap:40px;} }
+.about-collage{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+.about-collage img{
+  width:100%;height:100%;object-fit:cover;
+  border-radius:var(--radius-md);
+  filter:grayscale(1) contrast(1.02);
+}
+.about-collage .tall{grid-row:span 2;aspect-ratio:2/3;}
+.about-collage .wide{aspect-ratio:1/1;}
+.about-badge{
+  position:absolute;
+  bottom:-22px;left:-18px;
+  padding:16px 20px;
+  border-radius:var(--radius-md);
+  z-index:2;
+}
+@media (max-width:560px){ .about-badge{left:6px;bottom:-16px;padding:12px 16px;} }
+.about-badge .num{font-family:'Fraunces',serif;font-size:26px;color:var(--accent);}
+.about-badge .lbl{font-size:12px;color:var(--text-soft);margin-top:2px;max-width:150px;}
+
+.about-name{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);margin-bottom:10px;}
+.about-lede{font-size:clamp(18px,2vw,21px);color:var(--text);max-width:600px;}
+.about-teaser{margin-top:20px;color:var(--text-muted);max-width:600px;}
+.about-more{
+  overflow:hidden;
+  max-height:0;
+  opacity:0;
+  transition:max-height .6s var(--ease-spring),opacity .5s ease;
+}
+.about-more.open{opacity:1;}
+.about-more-inner{padding-top:28px;}
+.about-more h4{
+  font-size:17px;
+  margin-top:26px;
+  margin-bottom:10px;
+  color:var(--accent);
+}
+.about-more h4:first-child{margin-top:0;}
+.about-more p{color:var(--text-muted);margin-bottom:12px;}
+.about-more p:last-child{margin-bottom:0;}
+.about-toggle{
+  margin-top:26px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+.about-toggle svg{width:15px;height:15px;transition:transform .4s var(--ease-spring);}
+.about-toggle.open svg{transform:rotate(180deg);}
+.about-facts{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+  margin-top:36px;
+  padding-top:32px;
+  border-top:1px solid var(--border);
+}
+.about-fact-label{font-size:12px;color:var(--text-soft);text-transform:uppercase;letter-spacing:.06em;}
+.about-fact-value{font-family:'Fraunces',serif;font-size:16px;margin-top:4px;}
+
+/* ===== SERVICES ===== */
+.section-alt{background:var(--bg-2);}
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+@media (max-width:1000px){ .services-grid{grid-template-columns:1fr;} }
+.service-card{
+  position:relative;
+  padding:38px 32px 32px;
+  border-radius:var(--radius-lg);
+  background:var(--surface);
+  border:1px solid var(--border);
+  transition:transform .45s var(--ease-spring),box-shadow .45s var(--ease-spring),border-color .45s var(--ease-spring);
+}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 1px 1px rgba(var(--shadow-rgb),.05),0 30px 60px -24px rgba(var(--shadow-rgb),.3);border-color:var(--border-strong);}
+.service-index{
+  font-family:'Fraunces',serif;
+  font-size:13px;
+  color:var(--accent);
+  letter-spacing:.08em;
+  margin-bottom:18px;
+}
+.service-icon{
+  width:52px;height:52px;
+  border-radius:16px;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:22px;
+}
+.service-icon svg{width:24px;height:24px;color:var(--navy-deep);}
+.service-title{font-size:22px;margin-bottom:14px;}
+.service-desc{color:var(--text-muted);font-size:15px;margin-bottom:22px;}
+.service-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;}
+.service-tags span{
+  font-size:12.5px;
+  padding:7px 13px;
+  border-radius:999px;
+  background:rgba(var(--shadow-rgb),.05);
+  color:var(--text-muted);
+}
+.service-result{
+  padding-top:20px;
+  border-top:1px solid var(--border);
+  font-size:14px;
+  color:var(--text);
+}
+.service-result strong{color:var(--accent);display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;font-weight:600;}
+
+/* ===== CAROUSEL (shared) ===== */
+.carousel{
+  position:relative;
+  margin:0 -24px;
+  padding:0 24px;
+}
+@media (max-width:640px){ .carousel{margin:0 -18px;padding:0 18px;} }
+.carousel-viewport{
+  overflow:hidden;
+  cursor:grab;
+  touch-action:pan-y;
+  -webkit-user-select:none;user-select:none;
+}
+.carousel.dragging .carousel-viewport{cursor:grabbing;}
+.carousel-track{
+  display:flex;
+  gap:22px;
+  will-change:transform;
+}
+.carousel-arrows{
+  display:flex;
+  gap:10px;
+  justify-content:flex-end;
+  margin-bottom:26px;
+}
+.carousel-arrow{
+  width:46px;height:46px;
+  border-radius:50%;
+  border:1px solid var(--border-strong);
+  display:flex;align-items:center;justify-content:center;
+  background:var(--surface);
+  transition:background-color .3s var(--ease-spring),transform .3s var(--ease-spring),border-color .3s var(--ease-spring);
+}
+.carousel-arrow:hover{background:var(--navy);color:#F5F1E8;transform:translateY(-2px);border-color:var(--navy);}
+.carousel-arrow:active{transform:scale(.94);}
+.carousel-arrow svg{width:17px;height:17px;}
+
+/* portfolio */
+.portfolio-card{
+  position:relative;
+  flex:0 0 auto;
+  width:300px;
+  aspect-ratio:3/4;
+  border-radius:var(--radius-md);
+  overflow:hidden;
+  isolation:isolate;
+}
+@media (max-width:560px){ .portfolio-card{width:240px;} }
+.portfolio-card img{
+  width:100%;height:100%;object-fit:cover;
+  filter:grayscale(1) contrast(1.05);
+  transition:transform .6s var(--ease-spring);
+}
+.carousel:not(.dragging) .portfolio-card:hover img{transform:scale(1.05);}
+.portfolio-tint{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(15,31,61,.05) 30%,rgba(10,16,32,.85) 100%);
+}
+.portfolio-shade{
+  position:absolute;inset:0;
+  background:linear-gradient(140deg,rgba(217,175,86,.28),transparent 55%);
+  opacity:0;
+  transition:opacity .5s ease;
+}
+.portfolio-card:hover .portfolio-shade{opacity:1;}
+.portfolio-info{
+  position:absolute;left:20px;right:20px;bottom:18px;
+  color:#F5F1E8;
+}
+.portfolio-cat{
+  display:inline-block;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  padding:5px 11px;
+  border-radius:999px;
+  background:rgba(245,241,232,.14);
+  backdrop-filter:blur(6px);
+  margin-bottom:10px;
+}
+.portfolio-title{font-family:'Fraunces',serif;font-size:19px;}
+.portfolio-more-link{
+  margin-top:28px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:var(--accent);
+  font-weight:600;
+  font-size:14.5px;
+}
+.portfolio-more-link svg{width:15px;height:15px;transition:transform .3s var(--ease-spring);}
+.portfolio-more-link:hover svg{transform:translateX(3px);}
+
+/* ===== PACKAGES ===== */
+.packages-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+  align-items:stretch;
+}
+@media (max-width:1000px){ .packages-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto;} }
+.package-card{
+  position:relative;
+  padding:36px 30px;
+  border-radius:var(--radius-lg);
+  background:var(--surface);
+  border:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  transition:transform .45s var(--ease-spring),box-shadow .45s var(--ease-spring);
+}
+.package-card:hover{transform:translateY(-6px);}
+.package-card.featured{
+  background:var(--navy);
+  color:#F5F1E8;
+  border-color:var(--navy);
+  box-shadow:0 1px 1px rgba(var(--shadow-rgb),.08),0 30px 70px -20px rgba(15,31,61,.55);
+}
+.package-card.featured .package-desc,
+.package-card.featured .package-for{color:rgba(245,241,232,.72);}
+.package-card.featured .package-item{border-color:rgba(245,241,232,.14);}
+.package-badge{
+  position:absolute;top:-13px;right:28px;
+  padding:6px 16px;
+  border-radius:999px;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.04em;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  color:var(--navy-deep);
+}
+.package-name{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;}
+.package-card.featured .package-name{color:var(--accent-2);}
+.package-title{font-size:26px;margin-bottom:12px;}
+.package-desc{color:var(--text-muted);font-size:14.5px;margin-bottom:24px;}
+.package-list{display:flex;flex-direction:column;gap:0;margin-bottom:24px;}
+.package-item{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:12px 0;
+  border-bottom:1px solid var(--border);
+  font-size:14.5px;
+}
+.package-item:last-child{border-bottom:none;}
+.package-item svg{width:16px;height:16px;flex-shrink:0;margin-top:2px;color:var(--accent);}
+.package-for{
+  margin-top:auto;
+  padding-top:20px;
+  font-size:13px;
+  color:var(--text-soft);
+}
+.package-for strong{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin-bottom:6px;font-weight:600;}
+.package-card.featured .package-for strong{color:var(--accent-2);}
+.package-card .btn{margin-top:24px;width:100%;}
+
+/* ===== AUDIENCE ===== */
+.audience-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+@media (max-width:900px){ .audience-grid{grid-template-columns:repeat(2,1fr);} }
+.audience-card{
+  padding:28px 22px;
+  border-radius:var(--radius-md);
+  background:var(--surface);
+  border:1px solid var(--border);
+  transition:transform .4s var(--ease-spring),border-color .4s var(--ease-spring);
+}
+.audience-card:hover{transform:translateY(-4px);border-color:var(--accent);}
+.audience-icon{
+  width:44px;height:44px;
+  border-radius:12px;
+  background:rgba(184,134,46,.12);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:16px;
+}
+.audience-icon svg{width:21px;height:21px;color:var(--accent);}
+.audience-title{font-size:16.5px;font-family:'Fraunces',serif;margin-bottom:6px;}
+.audience-desc{font-size:13.5px;color:var(--text-soft);}
+
+/* ===== TESTIMONIALS ===== */
+.testi-tabs{
+  display:inline-flex;
+  gap:4px;
+  padding:5px;
+  border-radius:999px;
+  background:var(--bg-2);
+  margin-bottom:44px;
+}
+html[data-theme="dark"] .testi-tabs{background:rgba(255,255,255,.05);}
+.testi-tab{
+  padding:12px 22px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--text-soft);
+  display:flex;align-items:center;gap:8px;
+  transition:background-color .3s var(--ease-spring),color .3s var(--ease-spring);
+}
+.testi-tab svg{width:16px;height:16px;}
+.testi-tab.active{background:var(--navy);color:#F5F1E8;}
+.testi-panel{display:none;}
+.testi-panel.active{display:block;}
+
+.testi-card{
+  flex:0 0 auto;
+  width:340px;
+  padding:30px 26px;
+  border-radius:var(--radius-md);
+  background:var(--surface);
+  border:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+}
+@media (max-width:560px){ .testi-card{width:280px;padding:24px 20px;} }
+.testi-quote-icon{color:var(--accent);margin-bottom:16px;}
+.testi-quote-icon svg{width:26px;height:26px;}
+.testi-text{font-size:15px;color:var(--text-muted);margin-bottom:24px;flex-grow:1;}
+.testi-person{display:flex;align-items:center;gap:12px;}
+.testi-avatar{
+  width:44px;height:44px;border-radius:50%;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-weight:600;color:var(--navy-deep);
+  flex-shrink:0;
+}
+.testi-name{font-size:14.5px;font-weight:600;}
+.testi-role{font-size:12.5px;color:var(--text-soft);margin-top:1px;}
+
+.testi-media-card{position:relative;}
+.testi-media-thumb{
+  position:relative;
+  aspect-ratio:16/10;
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+  margin-bottom:18px;
+  background:linear-gradient(140deg,var(--navy),var(--navy-deep));
+}
+.testi-media-thumb img{width:100%;height:100%;object-fit:cover;filter:grayscale(1);opacity:.55;}
+.testi-play{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;
+}
+.testi-play-btn{
+  width:52px;height:52px;border-radius:50%;
+  background:rgba(245,241,232,.16);
+  backdrop-filter:blur(6px);
+  border:1px solid rgba(245,241,232,.3);
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .35s var(--ease-spring),background-color .35s var(--ease-spring);
+}
+.testi-play-btn:hover{transform:scale(1.08);background:rgba(245,241,232,.26);}
+.testi-play-btn svg{width:18px;height:18px;color:#F5F1E8;}
+.testi-waveform{
+  position:absolute;left:16px;right:16px;bottom:14px;
+  display:flex;align-items:flex-end;gap:3px;height:22px;
+}
+.testi-waveform span{flex:1;background:rgba(245,241,232,.5);border-radius:2px;}
+.testi-duration{
+  position:absolute;top:12px;right:12px;
+  font-size:11px;color:#F5F1E8;
+  background:rgba(10,16,32,.5);
+  padding:3px 8px;border-radius:999px;
+}
+.testi-toast{
+  position:fixed;
+  left:50%;bottom:32px;
+  transform:translate(-50%,20px);
+  padding:14px 22px;
+  border-radius:999px;
+  background:var(--navy);
+  color:#F5F1E8;
+  font-size:13.5px;
+  z-index:400;
+  opacity:0;
+  pointer-events:none;
+  transition:transform .4s var(--ease-spring),opacity .4s var(--ease-spring);
+  box-shadow:0 20px 40px -10px rgba(0,0,0,.4);
+  white-space:nowrap;
+}
+.testi-toast.show{opacity:1;transform:translate(-50%,0);}
+
+/* ===== CASES ===== */
+.cases-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+@media (max-width:1000px){ .cases-grid{grid-template-columns:1fr;max-width:520px;margin:0 auto;} }
+.case-card{
+  padding:32px 28px;
+  border-radius:var(--radius-lg);
+  background:var(--surface);
+  border:1px solid var(--border);
+  transition:transform .4s var(--ease-spring),opacity .4s ease,box-shadow .4s var(--ease-spring);
+}
+.case-card:hover{transform:translateY(-5px);box-shadow:0 1px 1px rgba(var(--shadow-rgb),.05),0 26px 50px -20px rgba(var(--shadow-rgb),.28);}
+.case-card[hidden]{display:none;}
+.case-name{font-size:20px;margin-bottom:20px;}
+.case-row{margin-bottom:16px;}
+.case-row:last-child{margin-bottom:0;}
+.case-label{
+  font-size:11px;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--accent);font-weight:600;margin-bottom:5px;
+}
+.case-value{font-size:14px;color:var(--text-muted);}
+.cases-more-wrap{text-align:center;margin-top:44px;}
+
+/* ===== CONTACT ===== */
+.contact-grid{
+  display:grid;
+  grid-template-columns:0.9fr 1.1fr;
+  gap:56px;
+}
+@media (max-width:960px){ .contact-grid{grid-template-columns:1fr;gap:44px;} }
+.contact-channels{display:flex;flex-direction:column;gap:14px;margin-top:36px;}
+.contact-channel{
+  display:flex;align-items:center;gap:16px;
+  padding:18px 20px;
+  border-radius:var(--radius-md);
+  background:var(--surface);
+  border:1px solid var(--border);
+  transition:transform .35s var(--ease-spring),border-color .35s var(--ease-spring);
+}
+.contact-channel:hover{transform:translateX(4px);border-color:var(--accent);}
+.contact-channel-icon{
+  width:46px;height:46px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  color:#fff;
+}
+.contact-channel-icon svg{width:22px;height:22px;}
+.cc-telegram{background:#29A9EA;}
+.cc-whatsapp{background:#25D366;}
+.cc-instagram{background:radial-gradient(circle at 30% 110%,#ffdb73 0%,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5 100%);}
+.cc-email{background:var(--navy);}
+.contact-channel-label{font-size:12px;color:var(--text-soft);}
+.contact-channel-value{font-family:'Fraunces',serif;font-size:16.5px;margin-top:2px;}
+
+.contact-form{
+  padding:38px;
+  border-radius:var(--radius-lg);
+  background:var(--surface);
+  border:1px solid var(--border);
+}
+.form-row{margin-bottom:20px;}
+.form-row label{display:block;font-size:13px;color:var(--text-soft);margin-bottom:8px;}
+.form-row input,.form-row textarea{
+  width:100%;
+  padding:14px 16px;
+  border-radius:var(--radius-sm);
+  border:1px solid var(--border-strong);
+  background:var(--bg);
+  color:var(--text);
+  transition:border-color .3s var(--ease-spring),box-shadow .3s var(--ease-spring);
+}
+.form-row input:focus,.form-row textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(184,134,46,.14);}
+.form-row textarea{resize:vertical;min-height:110px;}
+.form-submit{width:100%;margin-top:6px;}
+.form-note{font-size:12.5px;color:var(--text-soft);margin-top:16px;text-align:center;}
+
+/* ===== FOOTER ===== */
+.site-footer{
+  padding:56px 0 32px;
+  border-top:1px solid var(--border);
+}
+.footer-top{
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:24px;
+  padding-bottom:36px;
+  margin-bottom:28px;
+  border-bottom:1px solid var(--border);
+}
+.footer-socials{display:flex;gap:10px;}
+.footer-socials a{
+  width:42px;height:42px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--border-strong);
+  transition:border-color .3s var(--ease-spring),transform .3s var(--ease-spring),color .3s var(--ease-spring);
+}
+.footer-socials a:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);}
+.footer-socials svg{width:18px;height:18px;}
+.footer-bottom{
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  font-size:13px;color:var(--text-soft);
+}
+
+/* ===== FLOATING WHATSAPP ===== */
+.fab-whatsapp{
+  position:fixed;
+  right:20px;bottom:20px;
+  z-index:150;
+  width:60px;height:60px;
+  border-radius:50%;
+  background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 24px -6px rgba(37,211,102,.55);
+  transition:transform .35s var(--ease-spring);
+}
+.fab-whatsapp:hover{transform:scale(1.08);}
+.fab-whatsapp:active{transform:scale(.94);}
+.fab-whatsapp svg{width:28px;height:28px;color:#fff;position:relative;z-index:2;}
+.fab-whatsapp::before,.fab-whatsapp::after{
+  content:"";
+  position:absolute;inset:0;
+  border-radius:50%;
+  border:2px solid #25D366;
+  animation:fabPulse 2.6s ease-out infinite;
+}
+.fab-whatsapp::after{animation-delay:1.3s;}
+@media (max-width:640px){ .fab-whatsapp{right:16px;bottom:16px;width:54px;height:54px;} .fab-whatsapp svg{width:25px;height:25px;} }
+@keyframes fabPulse{
+  0%{transform:scale(1);opacity:.6;}
+  100%{transform:scale(1.7);opacity:0;}
+}
+
+/* ===== AI CHAT WIDGET ===== */
+.fab-chat{
+  position:fixed;
+  left:20px;bottom:20px;
+  z-index:150;
+  width:60px;height:60px;
+  border-radius:50%;
+  background:var(--navy);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px -6px rgba(15,31,61,.5);
+  transition:transform .35s var(--ease-spring);
+}
+.fab-chat:hover{transform:scale(1.08);}
+.fab-chat:active{transform:scale(.94);}
+.fab-chat svg{width:26px;height:26px;color:var(--accent-2);}
+@media (max-width:640px){ .fab-chat{left:16px;bottom:16px;width:54px;height:54px;} }
+
+.chat-panel{
+  position:fixed;
+  left:20px;bottom:92px;
+  z-index:160;
+  width:min(92vw,380px);
+  max-height:min(72vh,620px);
+  border-radius:var(--radius-lg);
+  background:var(--surface-glass-strong);
+  backdrop-filter:blur(24px) saturate(1.5);
+  border:1px solid var(--border);
+  box-shadow:0 30px 70px -20px rgba(var(--shadow-rgb),.45);
+  display:flex;flex-direction:column;
+  transform:translateY(16px) scale(.97);
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transition:transform .4s var(--ease-spring),opacity .35s ease,visibility .4s;
+}
+.chat-panel.open{transform:translateY(0) scale(1);opacity:1;visibility:visible;pointer-events:auto;}
+@media (max-width:640px){ .chat-panel{left:12px;bottom:82px;width:calc(100vw - 24px);} }
+
+.chat-head{
+  display:flex;align-items:center;gap:12px;
+  padding:18px 18px;
+  border-bottom:1px solid var(--border);
+}
+.chat-head-icon{
+  width:38px;height:38px;border-radius:50%;
+  background:linear-gradient(155deg,var(--accent-2),var(--accent));
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.chat-head-icon svg{width:18px;height:18px;color:var(--navy-deep);}
+.chat-head-title{font-family:'Fraunces',serif;font-size:15.5px;}
+.chat-head-status{font-size:11.5px;color:#4caf50;display:flex;align-items:center;gap:5px;}
+.chat-head-status::before{content:"";width:6px;height:6px;border-radius:50%;background:#4caf50;}
+.chat-close{margin-left:auto;}
+
+.chat-body{
+  flex:1;
+  overflow-y:auto;
+  padding:18px;
+  display:flex;flex-direction:column;gap:12px;
+  min-height:220px;
+}
+.chat-msg{
+  max-width:82%;
+  padding:12px 15px;
+  border-radius:16px;
+  font-size:14px;
+  line-height:1.55;
+}
+.chat-msg.bot{
+  align-self:flex-start;
+  background:var(--bg-2);
+  border-bottom-left-radius:4px;
+}
+html[data-theme="dark"] .chat-msg.bot{background:rgba(255,255,255,.06);}
+.chat-msg.user{
+  align-self:flex-end;
+  background:var(--navy);
+  color:#F5F1E8;
+  border-bottom-right-radius:4px;
+}
+.chat-quick{display:flex;flex-wrap:wrap;gap:8px;padding:0 18px 14px;}
+.chat-quick button{
+  font-size:12.5px;
+  padding:9px 14px;
+  border-radius:999px;
+  border:1px solid var(--border-strong);
+  color:var(--text-muted);
+  transition:border-color .3s var(--ease-spring),color .3s var(--ease-spring);
+}
+.chat-quick button:hover{border-color:var(--accent);color:var(--accent);}
+.chat-cta-row{
+  display:flex;gap:8px;
+  padding:0 18px 14px;
+}
+.chat-cta-row a{
+  flex:1;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  padding:10px;
+  border-radius:12px;
+  font-size:12.5px;
+  font-weight:600;
+  color:#fff;
+}
+.chat-cta-row a svg{width:14px;height:14px;}
+.chat-cta-row a.cta-tg{background:#29A9EA;}
+.chat-cta-row a.cta-wa{background:#25D366;}
+.chat-input-row{
+  display:flex;gap:8px;
+  padding:14px 16px;
+  border-top:1px solid var(--border);
+}
+.chat-input-row input{
+  flex:1;
+  padding:11px 15px;
+  border-radius:999px;
+  border:1px solid var(--border-strong);
+  background:var(--bg);
+  color:var(--text);
+}
+.chat-input-row input:focus{outline:none;border-color:var(--accent);}
+.chat-send{
+  width:40px;height:40px;border-radius:50%;
+  background:var(--navy);
+  color:#F5F1E8;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:transform .3s var(--ease-spring);
+}
+.chat-send:hover{transform:scale(1.06);}
+.chat-send svg{width:16px;height:16px;}
+</style>
+</head>
+<body>
+<svg class="grain" aria-hidden="true">
+  <filter id="noiseFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence>
+    <feColorMatrix type="saturate" values="0"></feColorMatrix>
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)"></rect>
+</svg>
+
+<!--HEADER-->
+<header class="site-header">
+  <a href="#top" class="brand">
+    <span class="brand-mark">U</span>
+    <span class="brand-text">
+      <span class="brand-name">Uldana Ospanbek</span>
+      <span class="brand-tag"><span class="i18n-ru">AI Marketing Partner</span><span class="i18n-kz">ЖИ маркетинг серіктесі</span></span>
+    </span>
+  </a>
+  <nav class="main-nav" aria-label="Main">
+    <a href="#about"><span class="i18n-ru">Обо мне</span><span class="i18n-kz">Мен туралы</span></a>
+    <a href="#services"><span class="i18n-ru">Услуги</span><span class="i18n-kz">Қызметтер</span></a>
+    <a href="#portfolio"><span class="i18n-ru">Портфолио</span><span class="i18n-kz">Портфолио</span></a>
+    <a href="#packages"><span class="i18n-ru">Пакеты</span><span class="i18n-kz">Пакеттер</span></a>
+    <a href="#testimonials"><span class="i18n-ru">Отзывы</span><span class="i18n-kz">Пікірлер</span></a>
+    <a href="#contact"><span class="i18n-ru">Контакты</span><span class="i18n-kz">Байланыс</span></a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="themeToggleDesktop" aria-label="Toggle theme" type="button">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="display:none"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+    </button>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang-btn="ru">RU</button>
+      <button type="button" data-lang-btn="kz">ҚАЗ</button>
+    </div>
+    <a href="#contact" class="btn btn-primary btn-sm">
+      <span class="i18n-ru">Связаться</span><span class="i18n-kz">Байланысу</span>
+    </a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" type="button">
+      <span><span class="mid"></span></span>
+    </button>
+  </div>
+</header>
+
+<!--MOBILE_NAV-->
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+  <div class="mobile-drawer-panel">
+    <div class="mobile-drawer-top">
+      <span class="brand-name" style="font-size:18px;"><span class="i18n-ru">Меню</span><span class="i18n-kz">Мәзір</span></span>
+      <button class="icon-btn" id="mobileCloseBtn" aria-label="Close menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-links" aria-label="Mobile">
+      <a href="#about" data-close-drawer><span class="i18n-ru">Обо мне</span><span class="i18n-kz">Мен туралы</span></a>
+      <a href="#services" data-close-drawer><span class="i18n-ru">Услуги</span><span class="i18n-kz">Қызметтер</span></a>
+      <a href="#portfolio" data-close-drawer><span class="i18n-ru">Портфолио</span><span class="i18n-kz">Портфолио</span></a>
+      <a href="#packages" data-close-drawer><span class="i18n-ru">Пакеты</span><span class="i18n-kz">Пакеттер</span></a>
+      <a href="#audience" data-close-drawer><span class="i18n-ru">Для кого</span><span class="i18n-kz">Кімге арналған</span></a>
+      <a href="#testimonials" data-close-drawer><span class="i18n-ru">Отзывы</span><span class="i18n-kz">Пікірлер</span></a>
+      <a href="#cases" data-close-drawer><span class="i18n-ru">Кейсы</span><span class="i18n-kz">Кейстер</span></a>
+      <a href="#contact" data-close-drawer><span class="i18n-ru">Контакты</span><span class="i18n-kz">Байланыс</span></a>
+    </nav>
+    <div class="mobile-drawer-bottom">
+      <button class="mobile-theme-toggle" id="themeToggleMobile" type="button">
+        <span><span class="i18n-ru">Тёмная тема</span><span class="i18n-kz">Күңгірт тақырып</span></span>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-gold" data-close-drawer style="width:100%;">
+        <span class="i18n-ru">Связаться</span><span class="i18n-kz">Байланысу</span>
+      </a>
+    </div>
+  </div>
+</div>
+<!--HERO-->
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="i18n-ru">Managing Partner · CEO · Business Development</span><span class="i18n-kz">Managing Partner · CEO · Business Development</span></div>
+        <h1 class="hero-title">
+          <span class="i18n-ru">Архитектор маркетинга и <em>продаж</em> в эпоху ИИ</span>
+          <span class="i18n-kz">ЖИ дәуіріндегі маркетинг пен <em>сатудың</em> архитекторы</span>
+        </h1>
+        <p class="hero-sub">
+          <span class="i18n-ru">Один специалист заменяет целый маркетинговый отдел: стратегия, контент, реклама, продажи и аналитика — под управлением искусственного интеллекта.</span>
+          <span class="i18n-kz">Бір маман бүкіл маркетинг бөлімін алмастырады: стратегия, контент, жарнама, сату және аналитика — жасанды интеллект басқаруымен.</span>
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-gold">
+            <span class="i18n-ru">Обсудить проект</span><span class="i18n-kz">Жобаны талқылау</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#portfolio" class="btn btn-ghost">
+            <span class="i18n-ru">Смотреть портфолио</span><span class="i18n-kz">Портфолионы көру</span>
+          </a>
+        </div>
+        <div class="hero-rating">
+          <span class="hero-stars">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L10 15l-5.6 3.1 1.4-6.3L1 7.5l6.4-.6z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L10 15l-5.6 3.1 1.4-6.3L1 7.5l6.4-.6z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L10 15l-5.6 3.1 1.4-6.3L1 7.5l6.4-.6z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L10 15l-5.6 3.1 1.4-6.3L1 7.5l6.4-.6z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L10 15l-5.6 3.1 1.4-6.3L1 7.5l6.4-.6z"/></svg>
+          </span>
+          <span><span class="i18n-ru">Маркетинг и продажи полного цикла на ИИ</span><span class="i18n-kz">Толық циклді ЖИ маркетинг пен сату</span></span>
+        </div>
+        <div class="hero-stats">
+          <div><div class="hero-stat-num">3</div><div class="hero-stat-label"><span class="i18n-ru">Направления в одних руках</span><span class="i18n-kz">Бір қолдағы бағыттар</span></div></div>
+          <div><div class="hero-stat-num">1</div><div class="hero-stat-label"><span class="i18n-ru">Специалист вместо отдела</span><span class="i18n-kz">Бөлімнің орнына маман</span></div></div>
+          <div><div class="hero-stat-num">24ч</div><div class="hero-stat-label"><span class="i18n-ru">Скорость запуска задач</span><span class="i18n-kz">Тапсырманы іске қосу жылдамдығы</span></div></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-wrap shadow-elevated">
+          <img src="assets/img/hero-uldana.jpg" alt="Улдана Оспанбек" loading="eager">
+          <div class="hero-photo-tint"></div>
+          <div class="hero-photo-overlay"></div>
+          <div class="hero-photo-caption">
+            <div class="name">Uldana Ospanbek</div>
+            <div class="role"><span class="i18n-ru">CEO · AI Marketing &amp; Sales</span><span class="i18n-kz">CEO · ЖИ маркетинг және сату</span></div>
+          </div>
+        </div>
+        <div class="hero-float-card card-1 glass shadow-float">
+          <div class="hero-float-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 17l6-6 4 4 8-8M21 7v6M21 7h-6"/></svg>
+          </div>
+          <div>
+            <div class="hero-float-title"><span class="i18n-ru">Рост вовлечённости</span><span class="i18n-kz">Тартылым өсімі</span></div>
+            <div class="hero-float-value">+96%</div>
+          </div>
+        </div>
+        <div class="hero-float-card card-2 glass shadow-float">
+          <div class="hero-float-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="3.4"/><path d="M4.5 20c1.6-3.6 4.4-5.4 7.5-5.4s5.9 1.8 7.5 5.4"/></svg>
+          </div>
+          <div>
+            <div class="hero-float-title"><span class="i18n-ru">ИИ вместо отдела</span><span class="i18n-kz">Бөлімнің орнына ЖИ</span></div>
+            <div class="hero-float-value"><span class="i18n-ru">5-в-1</span><span class="i18n-kz">5-те-1</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee-strip">
+      <div class="marquee-track">
+        <span><span class="i18n-ru">Маркетинг-стратегия</span><span class="i18n-kz">Маркетинг-стратегия</span></span>
+        <span><span class="i18n-ru">SMM и таргетинг</span><span class="i18n-kz">SMM және таргетинг</span></span>
+        <span><span class="i18n-ru">Брендинг</span><span class="i18n-kz">Брендинг</span></span>
+        <span><span class="i18n-ru">CRM и продажи</span><span class="i18n-kz">CRM және сату</span></span>
+        <span><span class="i18n-ru">Контент-продакшн</span><span class="i18n-kz">Контент-продакшн</span></span>
+        <span><span class="i18n-ru">Аналитика</span><span class="i18n-kz">Аналитика</span></span>
+        <span><span class="i18n-ru">Маркетинг-стратегия</span><span class="i18n-kz">Маркетинг-стратегия</span></span>
+        <span><span class="i18n-ru">SMM и таргетинг</span><span class="i18n-kz">SMM және таргетинг</span></span>
+        <span><span class="i18n-ru">Брендинг</span><span class="i18n-kz">Брендинг</span></span>
+        <span><span class="i18n-ru">CRM и продажи</span><span class="i18n-kz">CRM және сату</span></span>
+        <span><span class="i18n-ru">Контент-продакшн</span><span class="i18n-kz">Контент-продакшн</span></span>
+        <span><span class="i18n-ru">Аналитика</span><span class="i18n-kz">Аналитика</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--ABOUT-->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-collage">
+          <img class="tall" src="assets/img/about-uldana-2.jpg" alt="Улдана Оспанбек" loading="lazy">
+          <img class="wide" src="assets/img/about-uldana-3.jpg" alt="Улдана Оспанбек" loading="lazy">
+          <img class="wide" src="assets/img/about-uldana-4.jpg" alt="Улдана Оспанбек" loading="lazy">
+        </div>
+        <div class="about-badge glass shadow-float">
+          <div class="num">1=5</div>
+          <div class="lbl"><span class="i18n-ru">Один специалист — результат целого отдела</span><span class="i18n-kz">Бір маман — бүкіл бөлімнің нәтижесі</span></div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="eyebrow"><span class="i18n-ru">Обо мне</span><span class="i18n-kz">Мен туралы</span></div>
+        <div class="about-name">Оспанбек Улдана Сериковна</div>
+        <h2 class="section-title about-lede">
+          <span class="i18n-ru">Managing Partner, CEO и архитектор маркетинга и продаж в эпоху ИИ</span>
+          <span class="i18n-kz">Managing Partner, CEO және ЖИ дәуіріндегі маркетинг пен сатудың архитекторы</span>
+        </h2>
+        <p class="about-teaser">
+          <span class="i18n-ru">Я — Улдана Оспанбек. Специалист, который полностью автоматизирует маркетинг и продажи с помощью искусственного интеллекта. Суть моей работы проста: квалификация одного человека — результат целого маркетингового отдела.</span>
+          <span class="i18n-kz">Мен — Оспанбек Ұлдана. Маркетинг пен сатуды жасанды интеллект арқылы толықтай автоматтандыратын маман. Менің жұмысымның мәні қарапайым: бір адамның біліктілігі — бүкіл маркетинг бөлімінің нәтижесі.</span>
+        </p>
+
+        <button class="btn btn-ghost about-toggle" id="aboutToggle" type="button" aria-expanded="false">
+          <span class="i18n-ru">Полное знакомство</span><span class="i18n-kz">Толық танысу</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+
+        <div class="about-more" id="aboutMore">
+          <div class="about-more-inner">
+            <div class="i18n-ru">
+              <h4>Дата рождения</h4>
+              <p>31.10.1996</p>
+              <h4>Кто я</h4>
+              <p>Сегодня бизнесу больше не нужно нанимать по отдельности SMM-специалиста, таргетолога, дизайнера, копирайтера, мобилографа, фотографа и менеджера по продажам. Каждую из этих функций я реализую с помощью современных ИИ-инструментов — быстрее, дешевле и со стабильным качеством. Вместо найма штата — один специалист, одна система, один результат.</p>
+              <h4>Маркетинг: каждое направление — через ИИ</h4>
+              <p><strong>Контент-стратегия.</strong> Анализирую рынок и аудиторию, формирую месячный контент-план с помощью ИИ за считаные минуты — вместо часов ручного планирования.</p>
+              <p><strong>SMM.</strong> Календарь постинга, регулярные публикации, связь с аудиторией — непрерывный автоматизированный процесс через ИИ-агентов.</p>
+              <p><strong>Таргетинг и реклама.</strong> Сегментация аудитории, тестирование креативов, оптимизация бюджета — решения принимаются алгоритмами ИИ на основе точных данных.</p>
+              <p><strong>SEO и трафик.</strong> Анализ ключевых слов и адаптация статей под поисковые системы выполняются ИИ-инструментами.</p>
+              <p><strong>Брендинг и визуал.</strong> Логотип, фирменный стиль, баннеры — создаются ИИ-генераторами, без привлечения отдельного дизайнера.</p>
+              <p><strong>CRM и email-автоматизация.</strong> Цепочки сообщений, напоминания, follow-up письма работают полностью в автоматическом режиме.</p>
+              <p><strong>Аналитика.</strong> ROI, конверсия, результаты кампаний считаются в реальном времени и предоставляются в понятном отчёте.</p>
+              <h4>Продажи: усиление человеческого фактора ИИ</h4>
+              <p><strong>Лидогенерация и скоринг.</strong> ИИ автоматически находит потенциальных клиентов и делит их на «горячих» и «холодных».</p>
+              <p><strong>Персонализированные сценарии продаж.</strong> Текст предложения и сценарий диалога для каждого клиента пишутся с помощью ИИ.</p>
+              <p><strong>Ведение CRM.</strong> История контактов, заметки, следующие шаги обновляются автоматически, без ручного заполнения.</p>
+              <p><strong>Виртуальный менеджер по продажам.</strong> Первичную консультацию, ответы на вопросы, процесс бронирования выполняют ИИ-чат-бот и голосовой агент.</p>
+              <h4>Производство контента: один человек — целая студия</h4>
+              <p>В классической контент-студии фотограф, мобилограф, монтажёр, дизайнер и копирайтер работают по отдельности. Я уместила всю эту цепочку в формат «один специалист + ИИ»: фото- и видеоконтент, монтаж и звук, копирайтинг, дизайн — карусели, баннеры и презентации готовы за считаные минуты.</p>
+              <h4>Почему это важно</h4>
+              <p>Традиционная команда: 5-6 специалистов, высокие ежемесячные расходы, недели ожидания, согласования. Мой подход: один специалист, системы ИИ — результат готов не за дни, а за часы. Качество работы обеспечивается человеческим мастерством, скорость исполнения — искусственным интеллектом.</p>
+              <p>Я веду маркетинг и продажи вашего бизнеса полным циклом — от стратегии до контента, от лида до сделки — с помощью искусственного интеллекта.</p>
+            </div>
+            <div class="i18n-kz">
+              <h4>Туған күні</h4>
+              <p>31.10.1996</p>
+              <h4>Мен кіммін</h4>
+              <p>Бүгін бизнеске жеке-жеке SMM-маман, таргетолог, дизайнер, копирайтер, мобилограф, фотограф және сату менеджерін ұстаудың қажеті жоқ. Бұл функциялардың әрқайсысын мен заманауи ЖИ құралдары арқылы жүзеге асырамын — жылдамырақ, арзанырақ және тұрақты сапамен. Штат жинаудың орнына — бір маман, бір жүйе, бір нәтиже.</p>
+              <h4>Маркетинг: әр бағыт — ЖИ арқылы</h4>
+              <p><strong>Контент-стратегия.</strong> Нарық пен аудиторияны талдап, айлық контент-жоспарды ЖИ көмегімен бірнеше минутта құрамын — сағаттап отырып жоспарлаудың орнына.</p>
+              <p><strong>SMM.</strong> Постинг күнтізбесі, тұрақты жариялау, аудиториямен байланыс — ЖИ-агенттер арқылы автоматтандырылған үздіксіз процесс.</p>
+              <p><strong>Таргетинг және жарнама.</strong> Аудиторияны сегменттеу, крео тестілеу, бюджетті оңтайландыру — ЖИ алгоритмдері нақты деректер негізінде шешім қабылдайды.</p>
+              <p><strong>SEO және трафик.</strong> Кілт сөздерді талдау, мақалаларды іздеу жүйелеріне бейімдеу ЖИ құралдарымен орындалады.</p>
+              <p><strong>Брендинг пен визуал.</strong> Логотип, фирмалық стиль, баннерлер — жеке дизайнерсіз, ЖИ-генераторлар арқылы жасалады.</p>
+              <p><strong>CRM мен email-автоматтандыру.</strong> Хабарлама тізбектері, еске салулар, follow-up хаттар толықтай автоматты режимде жүреді.</p>
+              <p><strong>Аналитика.</strong> ROI, конверсия, науқан нәтижелері нақты уақытта есептеліп, түсінікті есеп түрінде беріледі.</p>
+              <h4>Сату: адами факторды ЖИ-мен күшейту</h4>
+              <p><strong>Лид генерациясы мен скоринг.</strong> Потенциалды клиенттерді ЖИ автоматты түрде тауып, «ыстық» және «суық» деп бөледі.</p>
+              <p><strong>Дербестендірілген сату сценарийлері.</strong> Әр клиентке арналған ұсыныс мәтіні мен диалог сценарийі ЖИ көмегімен жазылады.</p>
+              <p><strong>CRM жүргізу.</strong> Байланыс тарихы, ескертпелер, келесі қадамдар — қолмен толтырусыз, автоматты түрде жаңарып отырады.</p>
+              <p><strong>Виртуалды сату менеджері.</strong> Алғашқы кеңес беру, сұрақ-жауап, брондау процестерін ЖИ-чат-бот пен дауыстық агент атқарады.</p>
+              <h4>Контент өндірісі: бір адам — бүкіл студия</h4>
+              <p>Классикалық контент студиясында фотограф, мобилограф, монтажер, дизайнер және копирайтер бөлек-бөлек жұмыс істейді. Мен бұл тізбектің барлығын бір маман + ЖИ форматына сыйдырдым: фото- және видеоконтент, монтаж бен дыбыс, копирайтинг, дизайн — карусельдер, баннерлер, презентациялар минуттар ішінде дайын болады.</p>
+              <h4>Неге бұл маңызды</h4>
+              <p>Дәстүрлі команда: 5-6 маман, айына жоғары шығын, апталап күту, келісусіздіктер. Менің тәсілім: бір маман, ЖИ-жүйелер — күндер емес, сағаттар ішінде дайын нәтиже. Жұмыс сапасы адами шеберлікпен, орындау жылдамдығы жасанды интеллектпен қамтамасыз етіледі.</p>
+              <p>Мен бизнесіңіздің маркетингі мен сатуын толық циклмен — стратегиядан контентке, лидтен мәмілеге дейін — жасанды интеллект арқылы жүргіземін.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-facts">
+          <div>
+            <div class="about-fact-label"><span class="i18n-ru">Роль</span><span class="i18n-kz">Рөлі</span></div>
+            <div class="about-fact-value">Managing Partner · CEO</div>
+          </div>
+          <div>
+            <div class="about-fact-label"><span class="i18n-ru">Фокус</span><span class="i18n-kz">Фокус</span></div>
+            <div class="about-fact-value"><span class="i18n-ru">Маркетинг и продажи на ИИ</span><span class="i18n-kz">ЖИ-негізіндегі маркетинг пен сату</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--SERVICES-->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow"><span class="i18n-ru">Услуги</span><span class="i18n-kz">Қызметтер</span></div>
+      <h2 class="section-title"><span class="i18n-ru">Три направления — один результат</span><span class="i18n-kz">Үш бағыт — бір нәтиже</span></h2>
+      <p class="section-sub"><span class="i18n-ru">Полный цикл маркетинга и продаж вашего бизнеса под управлением искусственного интеллекта.</span><span class="i18n-kz">Бизнесіңіздің толық маркетинг пен сату циклі жасанды интеллект басқаруымен.</span></p>
+    </div>
+    <div class="services-grid">
+
+      <article class="service-card">
+        <div class="service-index">01</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19V9M12 19V5M20 19v-7"/></svg>
+        </div>
+        <h3 class="service-title"><span class="i18n-ru">Маркетинг под ключ на ИИ</span><span class="i18n-kz">ЖИ негізіндегі кешенді маркетинг</span></h3>
+        <p class="service-desc">
+          <span class="i18n-ru">Контент-стратегия, SMM, таргетинг, SEO, брендинг и аналитика — каждое направление реализуется через ИИ-инструменты быстрее и без потери качества.</span>
+          <span class="i18n-kz">Контент-стратегия, SMM, таргетинг, SEO, брендинг және аналитика — әр бағыт ЖИ-құралдары арқылы жылдамырақ әрі сапасынан айырылмай жүзеге асады.</span>
+        </p>
+        <div class="service-tags">
+          <span class="i18n-ru">Контент-стратегия</span><span class="i18n-kz">Контент-стратегия</span>
+          <span class="i18n-ru">SMM</span><span class="i18n-kz">SMM</span>
+          <span class="i18n-ru">Таргетинг</span><span class="i18n-kz">Таргетинг</span>
+          <span class="i18n-ru">SEO</span><span class="i18n-kz">SEO</span>
+          <span class="i18n-ru">Брендинг</span><span class="i18n-kz">Брендинг</span>
+          <span class="i18n-ru">CRM и email</span><span class="i18n-kz">CRM және email</span>
+          <span class="i18n-ru">Аналитика</span><span class="i18n-kz">Аналитика</span>
+        </div>
+        <div class="service-result">
+          <strong><span class="i18n-ru">Пример результата</span><span class="i18n-kz">Нәтиже мысалы</span></strong>
+          <span class="i18n-ru">Месячный контент-план и рекламные креативы — готовы за 24 часа вместо двух недель.</span>
+          <span class="i18n-kz">Айлық контент-жоспар мен жарнамалық креативтер — екі аптаның орнына 24 сағатта дайын.</span>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-index">02</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-4-1L3 20l1-5.5A8.5 8.5 0 1 1 21 11.5Z"/></svg>
+        </div>
+        <h3 class="service-title"><span class="i18n-ru">Продажи, усиленные ИИ</span><span class="i18n-kz">ЖИ-мен күшейтілген сату</span></h3>
+        <p class="service-desc">
+          <span class="i18n-ru">Лидогенерация, CRM, персонализированные сценарии и виртуальный менеджер продаж — ни один клиент не остаётся без ответа.</span>
+          <span class="i18n-kz">Лид генерациясы, CRM, дербестендірілген сценарийлер және виртуалды сату менеджері — бірде-бір клиент жауапсыз қалмайды.</span>
+        </p>
+        <div class="service-tags">
+          <span class="i18n-ru">Лидогенерация</span><span class="i18n-kz">Лид генерациясы</span>
+          <span class="i18n-ru">Скоринг</span><span class="i18n-kz">Скоринг</span>
+          <span class="i18n-ru">Сценарии продаж</span><span class="i18n-kz">Сату сценарийлері</span>
+          <span class="i18n-ru">Ведение CRM</span><span class="i18n-kz">CRM жүргізу</span>
+          <span class="i18n-ru">ИИ-чат-бот</span><span class="i18n-kz">ЖИ-чат-бот</span>
+        </div>
+        <div class="service-result">
+          <strong><span class="i18n-ru">Пример результата</span><span class="i18n-kz">Нәтиже мысалы</span></strong>
+          <span class="i18n-ru">Первый отклик клиенту — не через часы, а через секунды после заявки.</span>
+          <span class="i18n-kz">Клиентке алғашқы жауап — сағаттар емес, өтінімнен кейін секундтар ішінде.</span>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-index">03</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 19v-4"/></svg>
+        </div>
+        <h3 class="service-title"><span class="i18n-ru">Контент-продакшн: студия в одном специалисте</span><span class="i18n-kz">Контент-продакшн: бір маман — бүкіл студия</span></h3>
+        <p class="service-desc">
+          <span class="i18n-ru">Фото и видео, монтаж, копирайтинг и дизайн — вся визуальная подача бренда без отдельной команды.</span>
+          <span class="i18n-kz">Фото және видео, монтаж, копирайтинг пен дизайн — брендтің барлық визуалды көрінісі бөлек команда керек етпейді.</span>
+        </p>
+        <div class="service-tags">
+          <span class="i18n-ru">Фото/видео</span><span class="i18n-kz">Фото/видео</span>
+          <span class="i18n-ru">Монтаж и звук</span><span class="i18n-kz">Монтаж бен дыбыс</span>
+          <span class="i18n-ru">Копирайтинг</span><span class="i18n-kz">Копирайтинг</span>
+          <span class="i18n-ru">Дизайн</span><span class="i18n-kz">Дизайн</span>
+        </div>
+        <div class="service-result">
+          <strong><span class="i18n-ru">Пример результата</span><span class="i18n-kz">Нәтиже мысалы</span></strong>
+          <span class="i18n-ru">Рекламный ролик, карусель и тексты к посту — готовы в течение дня.</span>
+          <span class="i18n-kz">Жарнамалық роулик, карусель және пост мәтіндері — бір күн ішінде дайын.</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!--PORTFOLIO-->
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-head" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;width:100%;max-width:none;">
+      <div>
+        <div class="eyebrow"><span class="i18n-ru">Портфолио</span><span class="i18n-kz">Портфолио</span></div>
+        <h2 class="section-title"><span class="i18n-ru">Избранные проекты</span><span class="i18n-kz">Таңдаулы жобалар</span></h2>
+        <p class="section-sub"><span class="i18n-ru">Часть реализованных направлений — от брендинга до рекламных кампаний.</span><span class="i18n-kz">Іске асырылған бағыттардың бір бөлігі — брендингтен жарнамалық науқандарға дейін.</span></p>
+      </div>
+    </div>
+
+    <div class="carousel" id="portfolioCarousel">
+      <div class="carousel-arrows">
+        <button class="carousel-arrow" data-dir="prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button class="carousel-arrow" data-dir="next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Branding" alt="Branding"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Брендинг</span><span class="portfolio-cat i18n-kz">Брендинг</span><div class="portfolio-title i18n-ru">Айгерим Кофе</div><div class="portfolio-title i18n-kz">Айгерим Кофе</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=SMM" alt="SMM"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">SMM</span><span class="portfolio-cat i18n-kz">SMM</span><div class="portfolio-title i18n-ru">Nomad Beauty</div><div class="portfolio-title i18n-kz">Nomad Beauty</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Web" alt="Web"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Веб-дизайн</span><span class="portfolio-cat i18n-kz">Веб-дизайн</span><div class="portfolio-title i18n-ru">Atlas School</div><div class="portfolio-title i18n-kz">Atlas School</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Video" alt="Video"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Видео</span><span class="portfolio-cat i18n-kz">Видео</span><div class="portfolio-title i18n-ru">Grand Development</div><div class="portfolio-title i18n-kz">Grand Development</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=CRM" alt="CRM"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">CRM и продажи</span><span class="portfolio-cat i18n-kz">CRM және сату</span><div class="portfolio-title i18n-ru">Prime Realty</div><div class="portfolio-title i18n-kz">Prime Realty</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Ads" alt="Ads"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Реклама</span><span class="portfolio-cat i18n-kz">Жарнама</span><div class="portfolio-title i18n-ru">FitZone Club</div><div class="portfolio-title i18n-kz">FitZone Club</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Copy" alt="Copy"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Копирайтинг</span><span class="portfolio-cat i18n-kz">Копирайтинг</span><div class="portfolio-title i18n-ru">Almaty Jewelry</div><div class="portfolio-title i18n-kz">Almaty Jewelry</div></div></div>
+          <div class="portfolio-card"><img src="https://placehold.co/600x800/0f1f3d/f5f1e8?text=Analytics" alt="Analytics"><div class="portfolio-tint"></div><div class="portfolio-shade"></div><div class="portfolio-info"><span class="portfolio-cat i18n-ru">Аналитика</span><span class="portfolio-cat i18n-kz">Аналитика</span><div class="portfolio-title i18n-ru">Urban Restaurant</div><div class="portfolio-title i18n-kz">Urban Restaurant</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#cases" class="portfolio-more-link">
+      <span class="i18n-ru">Смотреть кейсы подробнее</span><span class="i18n-kz">Кейстерді толығырақ көру</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!--PACKAGES-->
+<section class="section section-alt" id="packages">
+  <div class="container">
+    <div class="section-head" style="margin-left:auto;margin-right:auto;text-align:center;">
+      <div class="eyebrow" style="justify-content:center;"><span class="i18n-ru">Пакеты услуг</span><span class="i18n-kz">Қызмет пакеттері</span></div>
+      <h2 class="section-title"><span class="i18n-ru">Выберите формат сотрудничества</span><span class="i18n-kz">Ынтымақтастық форматын таңдаңыз</span></h2>
+      <p class="section-sub" style="margin-left:auto;margin-right:auto;"><span class="i18n-ru">Три уровня — под задачи и объём вашего бизнеса.</span><span class="i18n-kz">Үш деңгей — бизнесіңіздің міндеттері мен көлеміне сай.</span></p>
+    </div>
+
+    <div class="packages-grid">
+      <div class="package-card">
+        <div class="package-name"><span class="i18n-ru">Старт</span><span class="i18n-kz">Старт</span></div>
+        <h3 class="package-title"><span class="i18n-ru">Малый пакет</span><span class="i18n-kz">Шағын пакет</span></h3>
+        <p class="package-desc"><span class="i18n-ru">Для первого системного запуска маркетинга без лишних затрат.</span><span class="i18n-kz">Артық шығынсыз маркетингті алғаш рет жүйелі іске қосуға арналған.</span></p>
+        <div class="package-list">
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Ведение 1 соцсети (SMM)</span><span class="i18n-kz">1 әлеуметтік желіні жүргізу (SMM)</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Контент-план на месяц</span><span class="i18n-kz">Айлық контент-жоспар</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">8 постов + 4 рилс в месяц</span><span class="i18n-kz">Айына 8 пост + 4 рилс</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Базовая аналитика и отчёт</span><span class="i18n-kz">Негізгі аналитика мен есеп</span></span></div>
+        </div>
+        <div class="package-for"><strong><span class="i18n-ru">Для кого</span><span class="i18n-kz">Кімге арналған</span></strong><span class="i18n-ru">ИП, локальный бизнес, личные бренды на старте</span><span class="i18n-kz">ЖК, локалды бизнес, старттағы жеке бренд иелері</span></div>
+        <a href="#contact" class="btn btn-ghost"><span class="i18n-ru">Выбрать пакет</span><span class="i18n-kz">Пакетті таңдау</span></a>
+      </div>
+
+      <div class="package-card featured">
+        <div class="package-badge"><span class="i18n-ru">Популярный</span><span class="i18n-kz">Танымал</span></div>
+        <div class="package-name"><span class="i18n-ru">Рост</span><span class="i18n-kz">Өсу</span></div>
+        <h3 class="package-title"><span class="i18n-ru">Средний пакет</span><span class="i18n-kz">Орта пакет</span></h3>
+        <p class="package-desc"><span class="i18n-ru">Комплексный маркетинг и продажи для активного роста бизнеса.</span><span class="i18n-kz">Бизнестің белсенді өсуіне арналған кешенді маркетинг пен сату.</span></p>
+        <div class="package-list">
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">SMM в 2 соцсетях + таргетинг</span><span class="i18n-kz">2 желіде SMM + таргетинг</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">20-30 материалов в месяц</span><span class="i18n-kz">Айына 20-30 материал</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">CRM и email-автоматизация</span><span class="i18n-kz">CRM және email-автоматтандыру</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Фото/видео-продакшн</span><span class="i18n-kz">Фото/видео-продакшн</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Ежемесячная аналитика</span><span class="i18n-kz">Ай сайынғы аналитика</span></span></div>
+        </div>
+        <div class="package-for"><strong><span class="i18n-ru">Для кого</span><span class="i18n-kz">Кімге арналған</span></strong><span class="i18n-ru">Малый и средний бизнес, растущие стартапы, e-commerce</span><span class="i18n-kz">Шағын және орта бизнес, өсіп келе жатқан стартаптар, e-commerce</span></div>
+        <a href="#contact" class="btn btn-gold"><span class="i18n-ru">Выбрать пакет</span><span class="i18n-kz">Пакетті таңдау</span></a>
+      </div>
+
+      <div class="package-card">
+        <div class="package-name"><span class="i18n-ru">Масштаб</span><span class="i18n-kz">Масштаб</span></div>
+        <h3 class="package-title"><span class="i18n-ru">Большой пакет</span><span class="i18n-kz">Үлкен пакет</span></h3>
+        <p class="package-desc"><span class="i18n-ru">Полный цикл маркетинга и продаж под управлением одного эксперта.</span><span class="i18n-kz">Бір сарапшы басқаратын толық маркетинг пен сату циклі.</span></p>
+        <div class="package-list">
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Стратегия + все каналы SMM</span><span class="i18n-kz">Стратегия + барлық SMM арналары</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Лидогенерация и CRM</span><span class="i18n-kz">Лид генерациясы және CRM</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Виртуальный sales-менеджер</span><span class="i18n-kz">Виртуалды sales-менеджер</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Брендинг и полный визуал</span><span class="i18n-kz">Брендинг және толық визуал</span></span></div>
+          <div class="package-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><span class="i18n-ru">Еженедельная отчётность</span><span class="i18n-kz">Апта сайынғы есеп беру</span></span></div>
+        </div>
+        <div class="package-for"><strong><span class="i18n-ru">Для кого</span><span class="i18n-kz">Кімге арналған</span></strong><span class="i18n-ru">Средний и крупный бизнес, сети, амбициозные компании</span><span class="i18n-kz">Орта және ірі бизнес, желілер, амбициялы компаниялар</span></div>
+        <a href="#contact" class="btn btn-ghost"><span class="i18n-ru">Выбрать пакет</span><span class="i18n-kz">Пакетті таңдау</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--AUDIENCE-->
+<section class="section section-alt" id="audience">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow"><span class="i18n-ru">Для кого мы работаем</span><span class="i18n-kz">Біз кіммен жұмыс істейміз</span></div>
+      <h2 class="section-title"><span class="i18n-ru">Бизнес любого масштаба</span><span class="i18n-kz">Кез келген деңгейдегі бизнес</span></h2>
+    </div>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Предприниматели</span><span class="i18n-kz">Кәсіпкерлер</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Личный бренд и рост влияния</span><span class="i18n-kz">Жеке бренд және әсерді өсіру</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 9l1.5-5h15L21 9M3 9v10a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V9M3 9h18M9 13a3 3 0 0 0 6 0"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Малый бизнес</span><span class="i18n-kz">Шағын бизнес</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Первые системные продажи</span><span class="i18n-kz">Алғашқы жүйелі сатылымдар</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Средний бизнес</span><span class="i18n-kz">Орта бизнес</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Масштабирование маркетинга</span><span class="i18n-kz">Маркетингті масштабтау</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="3" width="7" height="18"/><rect x="12" y="8" width="7" height="13"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Крупные компании</span><span class="i18n-kz">Ірі компаниялар</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Оптимизация процессов и команды</span><span class="i18n-kz">Процестер мен команданы оңтайландыру</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="8" r="3.6"/><path d="M5 20c1.7-3.8 4.6-5.7 7-5.7s5.3 1.9 7 5.7"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Личные бренды</span><span class="i18n-kz">Жеке бренд иелері</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Узнаваемость и доверие аудитории</span><span class="i18n-kz">Аудитория сенімі мен танымалдылық</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2c2.5 3 3.5 6 3.5 9.5A3.5 3.5 0 0 1 12 15a3.5 3.5 0 0 1-3.5-3.5C8.5 8 9.5 5 12 2Z"/><path d="M9 15l-2.5 5M15 15l2.5 5M10.5 15h3"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Стартапы</span><span class="i18n-kz">Стартаптар</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Быстрый выход на рынок</span><span class="i18n-kz">Нарыққа жылдам шығу</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M3 12h18"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Творческие проекты</span><span class="i18n-kz">Креативті жобалар</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Контент, который выделяет</span><span class="i18n-kz">Назар аудартатын контент</span></div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19.5V6a2 2 0 0 1 2-2h9.5a2 2 0 0 1 2 2v13.5M4 19.5A2 2 0 0 0 6 21.5h11.5a2 2 0 0 0 2-2M4 19.5h13.5"/></svg></div>
+        <div class="audience-title"><span class="i18n-ru">Образовательные проекты</span><span class="i18n-kz">Білім беру жобалары</span></div>
+        <div class="audience-desc"><span class="i18n-ru">Привлечение и удержание учеников</span><span class="i18n-kz">Оқушыларды тарту және ұстап қалу</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--TESTIMONIALS-->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow"><span class="i18n-ru">Отзывы</span><span class="i18n-kz">Пікірлер</span></div>
+      <h2 class="section-title"><span class="i18n-ru">Что говорят клиенты</span><span class="i18n-kz">Клиенттер не дейді</span></h2>
+    </div>
+
+    <div class="testi-tabs" role="tablist">
+      <button class="testi-tab active" data-testi-tab="text" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 5h16M4 12h16M4 19h10"/></svg>
+        <span class="i18n-ru">Текстовые</span><span class="i18n-kz">Жазбаша</span>
+      </button>
+      <button class="testi-tab" data-testi-tab="video" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M17 9l4-2.5v11L17 15"/></svg>
+        <span class="i18n-ru">Видео</span><span class="i18n-kz">Видео</span>
+      </button>
+      <button class="testi-tab" data-testi-tab="audio" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18V5l10-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm10-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+        <span class="i18n-ru">Аудио</span><span class="i18n-kz">Аудио</span>
+      </button>
+    </div>
+
+    <div class="testi-panel active" data-testi-panel="text">
+      <div class="carousel" data-carousel data-speed="0.35">
+        <div class="carousel-arrows">
+          <button class="carousel-arrow" data-dir="prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="carousel-arrow" data-dir="next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+            <div class="testi-card">
+              <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7C5.7 7 3 9.7 3 13s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7zm11 0c-3.3 0-6 2.7-6 6s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7z"/></svg></div>
+              <p class="testi-text"><span class="i18n-ru">После внедрения ИИ-системы контент стал выходить каждый день без моего участия. Продажи в Instagram выросли за первый месяц.</span><span class="i18n-kz">ЖИ-жүйесін енгізгеннен кейін контент менің қатысуымсыз күн сайын шығатын болды. Instagram-дағы сатылымдар бірінші айда өсті.</span></p>
+              <div class="testi-person"><div class="testi-avatar">А</div><div><div class="testi-name">Айгерим Т.</div><div class="testi-role i18n-ru">Владелец кофейни</div><div class="testi-role i18n-kz">Кофехана иесі</div></div></div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7C5.7 7 3 9.7 3 13s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7zm11 0c-3.3 0-6 2.7-6 6s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7z"/></svg></div>
+              <p class="testi-text"><span class="i18n-ru">Улдана выстроила воронку продаж и CRM за неделю. То, на что раньше уходили месяцы поиска подрядчиков.</span><span class="i18n-kz">Ұлдана сату воронкасы мен CRM-ді бір аптада құрды. Бұрын мердігер іздеуге айлар кететін.</span></p>
+              <div class="testi-person"><div class="testi-avatar">М</div><div><div class="testi-name">Марат С.</div><div class="testi-role i18n-ru">Основатель IT-стартапа</div><div class="testi-role i18n-kz">IT-стартап негізін қалаушы</div></div></div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7C5.7 7 3 9.7 3 13s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7zm11 0c-3.3 0-6 2.7-6 6s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7z"/></svg></div>
+              <p class="testi-text"><span class="i18n-ru">Впервые вижу, чтобы один человек закрывал задачи целого маркетингового отдела — и без потери качества.</span><span class="i18n-kz">Бір адамның бүкіл маркетинг бөлімінің тапсырмаларын сапасынан айырылмай орындағанын алғаш көріп тұрмын.</span></p>
+              <div class="testi-person"><div class="testi-avatar">Д</div><div><div class="testi-name">Динара К.</div><div class="testi-role i18n-ru">Бренд-менеджер</div><div class="testi-role i18n-kz">Бренд-менеджер</div></div></div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7C5.7 7 3 9.7 3 13s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7zm11 0c-3.3 0-6 2.7-6 6s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7z"/></svg></div>
+              <p class="testi-text"><span class="i18n-ru">Аналитика и отчёты теперь понятны и приходят вовремя. Больше никаких догадок — только цифры.</span><span class="i18n-kz">Аналитика мен есептер енді түсінікті әрі уақытында келеді. Болжам жоқ — тек нақты сандар.</span></p>
+              <div class="testi-person"><div class="testi-avatar">Е</div><div><div class="testi-name">Ерлан Б.</div><div class="testi-role i18n-ru">Владелец сети салонов</div><div class="testi-role i18n-kz">Салон желісінің иесі</div></div></div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7C5.7 7 3 9.7 3 13s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7zm11 0c-3.3 0-6 2.7-6 6s2.7 6 6 6v-3c-1.7 0-3-1.3-3-3h3V7z"/></svg></div>
+              <p class="testi-text"><span class="i18n-ru">Личный бренд и продажи курсов вышли на новый уровень благодаря системному подходу и ИИ-инструментам.</span><span class="i18n-kz">Жеке брендім мен курс сатылымдары жүйелі тәсіл мен ЖИ-құралдары арқасында жаңа деңгейге шықты.</span></p>
+              <div class="testi-person"><div class="testi-avatar">Ж</div><div><div class="testi-name">Жанна А.</div><div class="testi-role i18n-ru">Основательница онлайн-школы</div><div class="testi-role i18n-kz">Онлайн мектеп негізін қалаушы</div></div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-panel" data-testi-panel="video">
+      <div class="carousel" data-carousel data-speed="0.35">
+        <div class="carousel-arrows">
+          <button class="carousel-arrow" data-dir="prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="carousel-arrow" data-dir="next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+            <div class="testi-card testi-media-card" data-media="video">
+              <div class="testi-media-thumb">
+                <img src="https://placehold.co/500x320/0f1f3d/f5f1e8?text=" alt="">
+                <div class="testi-duration">02:14</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">А</div><div><div class="testi-name">Әсел Н.</div><div class="testi-role i18n-ru">Бьюти-студия · рост клиентов</div><div class="testi-role i18n-kz">Сұлулық студиясы · клиент өсімі</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="video">
+              <div class="testi-media-thumb">
+                <img src="https://placehold.co/500x320/0f1f3d/f5f1e8?text=" alt="">
+                <div class="testi-duration">01:48</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">Т</div><div><div class="testi-name">Тимур Ж.</div><div class="testi-role i18n-ru">Автосервис · автоматизация заявок</div><div class="testi-role i18n-kz">Автосервис · өтінімдерді автоматтандыру</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="video">
+              <div class="testi-media-thumb">
+                <img src="https://placehold.co/500x320/0f1f3d/f5f1e8?text=" alt="">
+                <div class="testi-duration">03:02</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">К</div><div><div class="testi-name">Камила Р.</div><div class="testi-role i18n-ru">Фитнес-клуб · продвижение в соцсетях</div><div class="testi-role i18n-kz">Фитнес-клуб · әлеуметтік желіде жылжыту</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="video">
+              <div class="testi-media-thumb">
+                <img src="https://placehold.co/500x320/0f1f3d/f5f1e8?text=" alt="">
+                <div class="testi-duration">02:31</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">Н</div><div><div class="testi-name">Нурлан Д.</div><div class="testi-role i18n-ru">Застройщик · продажи через CRM</div><div class="testi-role i18n-kz">Құрылысшы · CRM арқылы сатылымдар</div></div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-panel" data-testi-panel="audio">
+      <div class="carousel" data-carousel data-speed="0.35">
+        <div class="carousel-arrows">
+          <button class="carousel-arrow" data-dir="prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="carousel-arrow" data-dir="next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+            <div class="testi-card testi-media-card" data-media="audio">
+              <div class="testi-media-thumb">
+                <div class="testi-waveform">
+                  <span style="height:40%"></span><span style="height:70%"></span><span style="height:35%"></span><span style="height:90%"></span><span style="height:50%"></span><span style="height:65%"></span><span style="height:30%"></span><span style="height:80%"></span><span style="height:45%"></span><span style="height:60%"></span><span style="height:35%"></span><span style="height:75%"></span><span style="height:40%"></span><span style="height:55%"></span><span style="height:30%"></span><span style="height:85%"></span>
+                </div>
+                <div class="testi-duration">01:12</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">Г</div><div><div class="testi-name">Гульмира С.</div><div class="testi-role i18n-ru">Ювелирный бренд · новое направление</div><div class="testi-role i18n-kz">Зергерлік бренд · жаңа бағыт</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="audio">
+              <div class="testi-media-thumb">
+                <div class="testi-waveform">
+                  <span style="height:55%"></span><span style="height:35%"></span><span style="height:80%"></span><span style="height:45%"></span><span style="height:65%"></span><span style="height:30%"></span><span style="height:90%"></span><span style="height:50%"></span><span style="height:40%"></span><span style="height:70%"></span><span style="height:35%"></span><span style="height:60%"></span><span style="height:45%"></span><span style="height:80%"></span><span style="height:30%"></span><span style="height:55%"></span>
+                </div>
+                <div class="testi-duration">00:58</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">Д</div><div><div class="testi-name">Данияр К.</div><div class="testi-role i18n-ru">Ресторан · рост среднего чека</div><div class="testi-role i18n-kz">Мейрамхана · орташа чектің өсуі</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="audio">
+              <div class="testi-media-thumb">
+                <div class="testi-waveform">
+                  <span style="height:40%"></span><span style="height:60%"></span><span style="height:35%"></span><span style="height:75%"></span><span style="height:50%"></span><span style="height:85%"></span><span style="height:40%"></span><span style="height:55%"></span><span style="height:30%"></span><span style="height:65%"></span><span style="height:45%"></span><span style="height:80%"></span><span style="height:35%"></span><span style="height:50%"></span><span style="height:30%"></span><span style="height:70%"></span>
+                </div>
+                <div class="testi-duration">01:35</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">А</div><div><div class="testi-name">Аружан М.</div><div class="testi-role i18n-ru">Детский центр · заполняемость групп</div><div class="testi-role i18n-kz">Балалар орталығы · топтардың толуы</div></div></div>
+            </div>
+
+            <div class="testi-card testi-media-card" data-media="audio">
+              <div class="testi-media-thumb">
+                <div class="testi-waveform">
+                  <span style="height:60%"></span><span style="height:35%"></span><span style="height:50%"></span><span style="height:80%"></span><span style="height:40%"></span><span style="height:65%"></span><span style="height:30%"></span><span style="height:75%"></span><span style="height:45%"></span><span style="height:55%"></span><span style="height:35%"></span><span style="height:90%"></span><span style="height:40%"></span><span style="height:60%"></span><span style="height:30%"></span><span style="height:50%"></span>
+                </div>
+                <div class="testi-duration">02:03</div>
+                <div class="testi-play"><button class="testi-play-btn" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button></div>
+              </div>
+              <div class="testi-person"><div class="testi-avatar">Б</div><div><div class="testi-name">Бекзат О.</div><div class="testi-role i18n-ru">Строительная компания · лидогенерация</div><div class="testi-role i18n-kz">Құрылыс компаниясы · лид генерациясы</div></div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="testi-toast" id="testiToast"></div>
+
+<!--CASES-->
+<section class="section section-alt" id="cases">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow"><span class="i18n-ru">Кейсы</span><span class="i18n-kz">Кейстер</span></div>
+      <h2 class="section-title"><span class="i18n-ru">Задача — решение — результат</span><span class="i18n-kz">Міндет — шешім — нәтиже</span></h2>
+    </div>
+    <div class="cases-grid" id="casesGrid">
+
+      <article class="case-card">
+        <h3 class="case-name i18n-ru">Кофейня в Алматы</h3>
+        <h3 class="case-name i18n-kz">Алматыдағы кофехана</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Низкая узнаваемость и слабые продажи через Instagram.</div><div class="case-value i18n-kz">Instagram-дағы танымалдылық пен сатылымның төмендігі.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Контент-стратегия и SMM на ИИ, ежедневные публикации и таргетинг.</div><div class="case-value i18n-kz">ЖИ негізіндегі контент-стратегия мен SMM, күнделікті жариялау және таргетинг.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Рост подписчиков и заказов через директ за 2 месяца.</div><div class="case-value i18n-kz">2 айда жазылушылар мен директ арқылы тапсырыстардың өсуі.</div></div>
+      </article>
+
+      <article class="case-card">
+        <h3 class="case-name i18n-ru">IT-стартап</h3>
+        <h3 class="case-name i18n-kz">IT-стартап</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Нет системы продаж, лиды теряются.</div><div class="case-value i18n-kz">Сату жүйесінің жоқтығы, лидтердің жоғалуы.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Внедрение CRM и автоматических сценариев продаж.</div><div class="case-value i18n-kz">CRM және автоматты сату сценарийлерін енгізу.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Ни один лид не остаётся без ответа, цикл сделки сократился.</div><div class="case-value i18n-kz">Бірде-бір лид жауапсыз қалмайды, мәміле циклі қысқарды.</div></div>
+      </article>
+
+      <article class="case-card">
+        <h3 class="case-name i18n-ru">Сеть бьюти-салонов</h3>
+        <h3 class="case-name i18n-kz">Сұлулық салондарының желісі</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Непрозрачная аналитика, сложно оценить эффективность рекламы.</div><div class="case-value i18n-kz">Аналитиканың ашық еместігі, жарнама тиімділігін бағалау қиын.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Единая система отчётности и ИИ-аналитика в реальном времени.</div><div class="case-value i18n-kz">Бірыңғай есеп беру жүйесі және нақты уақыттағы ЖИ-аналитика.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Прозрачные метрики и обоснованные решения по бюджету.</div><div class="case-value i18n-kz">Мөлдір метрикалар мен негізделген бюджет шешімдері.</div></div>
+      </article>
+
+      <article class="case-card" hidden>
+        <h3 class="case-name i18n-ru">Онлайн-школа</h3>
+        <h3 class="case-name i18n-kz">Онлайн мектеп</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Слабый личный бренд основателя.</div><div class="case-value i18n-kz">Негізін қалаушының әлсіз жеке бренді.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Контент-стратегия личного бренда и сценарии для соцсетей.</div><div class="case-value i18n-kz">Жеке бренд контент-стратегиясы және әлеуметтік желіге сценарийлер.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Рост доверия аудитории и продаж курсов.</div><div class="case-value i18n-kz">Аудитория сенімі мен курс сатылымдарының өсуі.</div></div>
+      </article>
+
+      <article class="case-card" hidden>
+        <h3 class="case-name i18n-ru">Строительная компания</h3>
+        <h3 class="case-name i18n-kz">Құрылыс компаниясы</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Нет входящих заявок из интернета.</div><div class="case-value i18n-kz">Интернеттен өтінімдердің болмауы.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Таргетинг, лидогенерация и CRM.</div><div class="case-value i18n-kz">Таргетинг, лид генерациясы және CRM.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Стабильный поток заявок каждую неделю.</div><div class="case-value i18n-kz">Әр апта сайын тұрақты өтінім ағыны.</div></div>
+      </article>
+
+      <article class="case-card" hidden>
+        <h3 class="case-name i18n-ru">Ресторан</h3>
+        <h3 class="case-name i18n-kz">Мейрамхана</h3>
+        <div class="case-row"><div class="case-label i18n-ru">Задача</div><div class="case-label i18n-kz">Міндет</div><div class="case-value i18n-ru">Низкий средний чек и слабый повторный визит.</div><div class="case-value i18n-kz">Орташа чектің төмендігі және қайта келудің аздығы.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Решение</div><div class="case-label i18n-kz">Шешім</div><div class="case-value i18n-ru">Контент и email/CRM-автоматизация с напоминаниями и акциями.</div><div class="case-value i18n-kz">Контент және еске салулары бар CRM-автоматтандыру.</div></div>
+        <div class="case-row"><div class="case-label i18n-ru">Результат</div><div class="case-label i18n-kz">Нәтиже</div><div class="case-value i18n-ru">Рост повторных визитов и среднего чека.</div><div class="case-value i18n-kz">Қайта келу мен орташа чектің өсуі.</div></div>
+      </article>
+
+    </div>
+    <div class="cases-more-wrap">
+      <button class="btn btn-ghost" id="casesMoreBtn" type="button">
+        <span class="i18n-ru">Показать ещё кейсы</span><span class="i18n-kz">Тағы кейстерді көрсету</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!--CONTACT-->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <div class="eyebrow"><span class="i18n-ru">Контакты</span><span class="i18n-kz">Байланыс</span></div>
+        <h2 class="section-title"><span class="i18n-ru">Готовы обсудить ваш проект</span><span class="i18n-kz">Жобаңызды талқылауға дайынбыз</span></h2>
+        <p class="section-sub"><span class="i18n-ru">Выберите удобный канал связи — отвечу лично в течение дня.</span><span class="i18n-kz">Ыңғайлы байланыс арнасын таңдаңыз — бір күн ішінде жеке жауап беремін.</span></p>
+
+        <div class="contact-channels">
+          <a class="contact-channel" href="https://t.me/UldanaO" target="_blank" rel="noopener">
+            <div class="contact-channel-icon cc-telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg></div>
+            <div><div class="contact-channel-label">Telegram</div><div class="contact-channel-value">@UldanaO</div></div>
+          </a>
+          <a class="contact-channel" href="https://wa.me/77088007021" target="_blank" rel="noopener">
+            <div class="contact-channel-icon cc-whatsapp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10.6 8.9 10 7.5 9.7 7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3c-.9-1.4-1.3-3-1.3-4.6 0-4.6 3.7-8.4 8.4-8.4 4.6 0 8.4 3.7 8.4 8.4 0 4.6-3.8 8.5-8.3 8.5z"/></svg></div>
+            <div><div class="contact-channel-label">WhatsApp</div><div class="contact-channel-value">+7 708 800 70 21</div></div>
+          </a>
+          <a class="contact-channel" href="https://instagram.com/odessa_o.s" target="_blank" rel="noopener">
+            <div class="contact-channel-icon cc-instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1"/></svg></div>
+            <div><div class="contact-channel-label">Instagram</div><div class="contact-channel-value">@odessa_o.s</div></div>
+          </a>
+          <a class="contact-channel" href="mailto:ospanbekuldana@gmail.com">
+            <div class="contact-channel-icon cc-email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+            <div><div class="contact-channel-label">Email</div><div class="contact-channel-value">ospanbekuldana@gmail.com</div></div>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form shadow-float" id="contactForm">
+        <div class="form-row">
+          <label for="cf-name"><span class="i18n-ru">Ваше имя</span><span class="i18n-kz">Атыңыз</span></label>
+          <input type="text" id="cf-name" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-phone"><span class="i18n-ru">Телефон или Telegram</span><span class="i18n-kz">Телефон немесе Telegram</span></label>
+          <input type="text" id="cf-phone" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message"><span class="i18n-ru">Сообщение</span><span class="i18n-kz">Хабарлама</span></label>
+          <textarea id="cf-message"></textarea>
+        </div>
+        <button class="btn btn-gold form-submit" type="submit">
+          <span class="i18n-ru">Отправить в WhatsApp</span><span class="i18n-kz">WhatsApp-қа жіберу</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="form-note"><span class="i18n-ru">Заявка откроется в WhatsApp — вы отправите её лично мне.</span><span class="i18n-kz">Өтінім WhatsApp-та ашылады — оны маған жеке жібересіз.</span></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="brand">
+        <span class="brand-mark">U</span>
+        <span class="brand-text">
+          <span class="brand-name">Uldana Ospanbek</span>
+          <span class="brand-tag"><span class="i18n-ru">AI Marketing Partner</span><span class="i18n-kz">ЖИ маркетинг серіктесі</span></span>
+        </span>
+      </div>
+      <div class="footer-socials">
+        <a href="https://t.me/UldanaO" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg></a>
+        <a href="https://wa.me/77088007021" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.5 12.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10.6 8.9 10 7.5 9.7 7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/></svg></a>
+        <a href="https://instagram.com/odessa_o.s" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a href="mailto:ospanbekuldana@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Uldana Ospanbek. <span class="i18n-ru">Все права защищены.</span><span class="i18n-kz">Барлық құқықтар қорғалған.</span></span>
+      <span>+7 707 109 99 98</span>
+    </div>
+  </div>
+</footer>
+<!--FLOATING_WHATSAPP-->
+<a class="fab-whatsapp" href="https://wa.me/77088007021" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.5 12.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10.6 8.9 10 7.5 9.7 7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<!--AI_CHAT-->
+<button class="fab-chat" id="chatFab" type="button" aria-label="AI chat">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4c-1.2 0-2.4-.3-3.4-.8L3 20.5l1.5-4.3a8.4 8.4 0 1 1 16.5-4.7Z"/><circle cx="8.5" cy="12" r=".8" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r=".8" fill="currentColor" stroke="none"/><circle cx="15.5" cy="12" r=".8" fill="currentColor" stroke="none"/></svg>
+</button>
+
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-head">
+    <div class="chat-head-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2c2.5 3 3.5 6 3.5 9.5A3.5 3.5 0 0 1 12 15a3.5 3.5 0 0 1-3.5-3.5C8.5 8 9.5 5 12 2Z"/></svg>
+    </div>
+    <div>
+      <div class="chat-head-title"><span class="i18n-ru">AI-ассистент Улдана</span><span class="i18n-kz">Ұлданың ЖИ-көмекшісі</span></div>
+      <div class="chat-head-status"><span class="i18n-ru">на связи</span><span class="i18n-kz">байланыста</span></div>
+    </div>
+    <button class="icon-btn chat-close" id="chatCloseBtn" aria-label="Close" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <div class="chat-cta-row">
+    <a class="cta-tg" href="https://t.me/UldanaO" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg>
+      Telegram
+    </a>
+    <a class="cta-wa" href="https://wa.me/77088007021" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+  <form class="chat-input-row" id="chatForm">
+    <input type="text" id="chatInput" autocomplete="off" placeholder="Задайте вопрос…">
+    <button class="chat-send" type="submit" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+    </button>
+  </form>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- LANGUAGE ---------- */
+  var LANG_KEY = "uldana-lang";
+  var html = document.documentElement;
+  function setLang(lang){
+    html.setAttribute("data-lang", lang);
+    html.setAttribute("lang", lang === "kz" ? "kk" : "ru");
+    try{ localStorage.setItem(LANG_KEY, lang); }catch(e){}
+    document.querySelectorAll('[data-lang-btn]').forEach(function(b){
+      b.setAttribute('aria-pressed', b.getAttribute('data-lang-btn') === lang);
+    });
+    document.querySelectorAll('#chatInput').forEach(function(inp){
+      inp.setAttribute('placeholder', lang === 'kz' ? 'Сұрағыңызды жазыңыз…' : 'Задайте вопрос…');
+    });
+  }
+  var savedLang = null;
+  try{ savedLang = localStorage.getItem(LANG_KEY); }catch(e){}
+  setLang(savedLang === "kz" ? "kz" : "ru");
+  document.querySelectorAll('[data-lang-btn]').forEach(function(btn){
+    btn.addEventListener('click', function(){ setLang(btn.getAttribute('data-lang-btn')); });
+  });
+
+  /* ---------- THEME ---------- */
+  var THEME_KEY = "uldana-theme";
+  function applyThemeIcons(theme){
+    document.querySelectorAll('.icon-sun').forEach(function(i){ i.style.display = theme === 'dark' ? 'block' : 'none'; });
+    document.querySelectorAll('.icon-moon').forEach(function(i){ i.style.display = theme === 'dark' ? 'none' : 'block'; });
+  }
+  function setTheme(theme){
+    html.setAttribute('data-theme', theme);
+    try{ localStorage.setItem(THEME_KEY, theme); }catch(e){}
+    applyThemeIcons(theme);
+  }
+  var savedTheme = null;
+  try{ savedTheme = localStorage.getItem(THEME_KEY); }catch(e){}
+  if(!savedTheme){
+    savedTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  setTheme(savedTheme);
+  function toggleTheme(){ setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }
+  var themeDesktop = document.getElementById('themeToggleDesktop');
+  var themeMobile = document.getElementById('themeToggleMobile');
+  if(themeDesktop) themeDesktop.addEventListener('click', toggleTheme);
+  if(themeMobile) themeMobile.addEventListener('click', toggleTheme);
+
+  /* ---------- MOBILE DRAWER ---------- */
+  var drawer = document.getElementById('mobileDrawer');
+  var hamburgerBtn = document.getElementById('hamburgerBtn');
+  var mobileCloseBtn = document.getElementById('mobileCloseBtn');
+  var drawerBackdrop = document.getElementById('mobileDrawerBackdrop');
+  function openDrawer(){
+    drawer.classList.add('open');
+    hamburgerBtn.setAttribute('aria-expanded','true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer(){
+    drawer.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded','false');
+    document.body.style.overflow = '';
+  }
+  if(hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
+  if(mobileCloseBtn) mobileCloseBtn.addEventListener('click', closeDrawer);
+  if(drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
+  document.querySelectorAll('[data-close-drawer]').forEach(function(a){
+    a.addEventListener('click', closeDrawer);
+  });
+
+  /* ---------- ABOUT EXPAND ---------- */
+  var aboutToggle = document.getElementById('aboutToggle');
+  var aboutMore = document.getElementById('aboutMore');
+  if(aboutToggle && aboutMore){
+    aboutToggle.addEventListener('click', function(){
+      var isOpen = aboutMore.classList.contains('open');
+      if(isOpen){
+        aboutMore.style.maxHeight = aboutMore.scrollHeight + 'px';
+        requestAnimationFrame(function(){ aboutMore.style.maxHeight = '0px'; });
+        aboutMore.classList.remove('open');
+        aboutToggle.classList.remove('open');
+        aboutToggle.setAttribute('aria-expanded','false');
+      } else {
+        aboutMore.classList.add('open');
+        aboutToggle.classList.add('open');
+        aboutToggle.setAttribute('aria-expanded','true');
+        aboutMore.style.maxHeight = aboutMore.scrollHeight + 'px';
+        setTimeout(function(){ if(aboutMore.classList.contains('open')) aboutMore.style.maxHeight = 'none'; }, 650);
+      }
+    });
+  }
+  window.addEventListener('resize', function(){
+    if(aboutMore && aboutMore.classList.contains('open')) aboutMore.style.maxHeight = 'none';
+  });
+
+  /* ---------- INFINITE CAROUSEL ---------- */
+  function InfiniteCarousel(root){
+    this.root = root;
+    this.track = root.querySelector('.carousel-track');
+    this.speed = parseFloat(root.getAttribute('data-speed')) || 0.45;
+    this.offset = 0;
+    this.dragging = false;
+    this.paused = false;
+    this.resumeTimer = null;
+    var original = Array.prototype.slice.call(this.track.children);
+    original.forEach(function(node){ this.track.appendChild(node.cloneNode(true)); }, this);
+    var self = this;
+    this._raf = requestAnimationFrame(function tick(){ self.tick(); self._raf = requestAnimationFrame(tick); });
+    this.bindEvents();
+  }
+  InfiniteCarousel.prototype.halfWidth = function(){ return this.track.scrollWidth / 2; };
+  InfiniteCarousel.prototype.wrap = function(){
+    var h = this.halfWidth();
+    if(h <= 0) return;
+    while(this.offset >= h) this.offset -= h;
+    while(this.offset < 0) this.offset += h;
+  };
+  InfiniteCarousel.prototype.render = function(){
+    this.track.style.transform = 'translate3d(' + (-this.offset) + 'px,0,0)';
+  };
+  InfiniteCarousel.prototype.tick = function(){
+    if(!this.paused && !this.dragging){
+      this.offset += this.speed;
+      this.wrap();
+      this.render();
+    }
+  };
+  InfiniteCarousel.prototype.cardStep = function(){
+    var first = this.track.children[0];
+    if(!first) return 300;
+    var style = getComputedStyle(this.track);
+    var gap = parseFloat(style.columnGap || style.gap || 0) || 0;
+    return first.getBoundingClientRect().width + gap;
+  };
+  InfiniteCarousel.prototype.pauseThenResume = function(delay){
+    this.paused = true;
+    clearTimeout(this.resumeTimer);
+    var self = this;
+    this.resumeTimer = setTimeout(function(){ self.paused = false; }, delay || 2200);
+  };
+  InfiniteCarousel.prototype.next = function(){
+    this.track.style.transition = 'transform .6s cubic-bezier(.22,1,.36,1)';
+    this.offset += this.cardStep();
+    this.wrap();
+    this.render();
+    this.pauseThenResume();
+    var self = this;
+    setTimeout(function(){ self.track.style.transition = ''; }, 620);
+  };
+  InfiniteCarousel.prototype.prev = function(){
+    this.track.style.transition = 'transform .6s cubic-bezier(.22,1,.36,1)';
+    this.offset -= this.cardStep();
+    this.wrap();
+    this.render();
+    this.pauseThenResume();
+    var self = this;
+    setTimeout(function(){ self.track.style.transition = ''; }, 620);
+  };
+  InfiniteCarousel.prototype.bindEvents = function(){
+    var self = this;
+    this.root.addEventListener('mouseenter', function(){ self.paused = true; });
+    this.root.addEventListener('mouseleave', function(){ if(!self.dragging) self.paused = false; });
+
+    var startX = 0, startOffset = 0;
+    function pointerX(e){ return e.touches ? e.touches[0].clientX : e.clientX; }
+    function onDown(e){
+      self.dragging = true;
+      self.root.classList.add('dragging');
+      startX = pointerX(e);
+      startOffset = self.offset;
+      self.track.style.transition = '';
+    }
+    function onMove(e){
+      if(!self.dragging) return;
+      var dx = pointerX(e) - startX;
+      self.offset = startOffset - dx;
+      self.wrap();
+      self.render();
+    }
+    function onUp(){
+      if(!self.dragging) return;
+      self.dragging = false;
+      self.root.classList.remove('dragging');
+      self.pauseThenResume(1200);
+    }
+    this.root.addEventListener('mousedown', onDown);
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('mouseup', onUp);
+    this.root.addEventListener('touchstart', onDown, {passive:true});
+    this.root.addEventListener('touchmove', onMove, {passive:true});
+    this.root.addEventListener('touchend', onUp);
+
+    this.root.querySelectorAll('.carousel-arrow').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var dir = btn.getAttribute('data-dir');
+        if(dir === 'next') self.next(); else self.prev();
+      });
+    });
+  };
+
+  var carousels = [];
+  document.querySelectorAll('.carousel').forEach(function(el){
+    carousels.push(new InfiniteCarousel(el));
+  });
+
+  /* ---------- TESTIMONIAL TABS ---------- */
+  var testiTabs = document.querySelectorAll('.testi-tab');
+  testiTabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      var target = tab.getAttribute('data-testi-tab');
+      testiTabs.forEach(function(t){ t.classList.toggle('active', t === tab); });
+      document.querySelectorAll('.testi-panel').forEach(function(p){
+        p.classList.toggle('active', p.getAttribute('data-testi-panel') === target);
+      });
+    });
+  });
+
+  /* ---------- MEDIA PLAY TOAST ---------- */
+  var toast = document.getElementById('testiToast');
+  var toastTimer = null;
+  function showToast(){
+    var isKz = html.getAttribute('data-lang') === 'kz';
+    toast.textContent = isKz ? 'Толық жазба жақында қосылады' : 'Полная запись появится здесь совсем скоро';
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2600);
+  }
+  document.querySelectorAll('.testi-play-btn').forEach(function(btn){
+    btn.addEventListener('click', function(e){ e.stopPropagation(); showToast(); });
+  });
+
+  /* ---------- CASES SHOW MORE ---------- */
+  var casesMoreBtn = document.getElementById('casesMoreBtn');
+  if(casesMoreBtn){
+    casesMoreBtn.addEventListener('click', function(){
+      document.querySelectorAll('#casesGrid [hidden]').forEach(function(card){ card.removeAttribute('hidden'); });
+      casesMoreBtn.style.display = 'none';
+    });
+  }
+
+  /* ---------- CONTACT FORM -> WHATSAPP ---------- */
+  var contactForm = document.getElementById('contactForm');
+  if(contactForm){
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var isKz = html.getAttribute('data-lang') === 'kz';
+      var name = document.getElementById('cf-name').value.trim();
+      var phone = document.getElementById('cf-phone').value.trim();
+      var msg = document.getElementById('cf-message').value.trim();
+      var text = isKz
+        ? 'Сәлеметсіз бе, Ұлдана! Менің атым ' + name + '. Байланыс: ' + phone + '. Хабарлама: ' + (msg || '—')
+        : 'Здравствуйте, Улдана! Меня зовут ' + name + '. Контакт: ' + phone + '. Сообщение: ' + (msg || '—');
+      window.open('https://wa.me/77088007021?text=' + encodeURIComponent(text), '_blank');
+    });
+  }
+
+  /* ---------- AI CHAT ASSISTANT ---------- */
+  var chatFab = document.getElementById('chatFab');
+  var chatPanel = document.getElementById('chatPanel');
+  var chatCloseBtn = document.getElementById('chatCloseBtn');
+  var chatBody = document.getElementById('chatBody');
+  var chatQuick = document.getElementById('chatQuick');
+  var chatForm = document.getElementById('chatForm');
+  var chatInput = document.getElementById('chatInput');
+  var chatOpened = false;
+  var exchangeCount = 0;
+
+  var FAQ = [
+    { kw:['привет','здравств','сәлем','салем','ассалам'],
+      ru:'Здравствуйте! Я — виртуальный ассистент Улдана. Спросите об услугах, пакетах, сроках или портфолио — я подскажу.',
+      kz:'Сәлеметсіз бе! Мен — Ұлданың виртуалды көмекшісімін. Қызметтер, пакеттер, мерзімдер немесе портфолио туралы сұраңыз.' },
+    { kw:['услуг','что делаете','чем занимает','направлен','қызмет','немен айналыс','бағыт'],
+      ru:'Я использую ИИ, чтобы автоматизировать три направления: маркетинг (контент, SMM, таргетинг, SEO, брендинг), продажи (лидогенерация, CRM, сценарии) и контент-продакшн (фото, видео, дизайн, копирайтинг). Один специалист вместо целого отдела.',
+      kz:'Мен ЖИ көмегімен үш бағытты автоматтандырамын: маркетинг (контент, SMM, таргетинг, SEO, брендинг), сату (лид генерациясы, CRM, сценарийлер) және контент-продакшн (фото, видео, дизайн, копирайтинг). Бір маман — бүкіл бөлімнің орнына.' },
+    { kw:['цена','стоимост','сколько стоит','пакет','баға','құны','пакет','қымбат'],
+      ru:'Стоимость зависит от объёма задач и выбранного пакета — Старт, Рост или Масштаб. Напишите мне в Telegram или WhatsApp, и я подберу вариант под ваш бюджет и цели.',
+      kz:'Құны тапсырма көлемі мен таңдалған пакетке байланысты — Старт, Өсу немесе Масштаб. Telegram немесе WhatsApp-қа жазыңыз, бюджетіңіз бен мақсатыңызға сай нұсқа таңдап беремін.' },
+    { kw:['срок','как быстро','сколько времени','мерзім','қаншалықты жылдам','жылдам'],
+      ru:'Благодаря ИИ-инструментам результаты видны быстрее, чем при классическом подходе: контент-план и креативы готовятся за часы, а не недели.',
+      kz:'ЖИ құралдарының арқасында нәтижелер дәстүрлі тәсілге қарағанда жылдамырақ көрінеді: контент-жоспар мен креатив аптаның орнына сағаттар ішінде дайын болады.' },
+    { kw:['портфолио','кейс','пример работ','портфолио','кейс','жұмыс мысал'],
+      ru:'Примеры работ и кейсы можно посмотреть в разделах «Портфолио» и «Кейсы» на этой странице — там есть задачи, решения и результаты.',
+      kz:'Жұмыс мысалдары мен кейстерді осы беттегі «Портфолио» және «Кейстер» бөлімдерінен көре аласыз — онда міндеттер, шешімдер мен нәтижелер бар.' },
+    { kw:['связ','контакт','телефон','whatsapp','telegram','ватсап','телеграм','байланыс'],
+      ru:'Со мной можно связаться в Telegram (@UldanaO) или WhatsApp (+7 708 800 70 21). Хотите, открою чат прямо сейчас?',
+      kz:'Менімен Telegram (@UldanaO) немесе WhatsApp (+7 708 800 70 21) арқылы байланысуға болады. Қазір чатты ашайын ба?' },
+    { kw:['для кого','кому подход','малый бизнес','стартап','кімге','шағын бизнес','аудитория'],
+      ru:'Я работаю с предпринимателями, малым и средним бизнесом, крупными компаниями, личными брендами, стартапами, творческими и образовательными проектами.',
+      kz:'Мен кәсіпкерлермен, шағын және орта бизнеспен, ірі компаниялармен, жеке бренд иелерімен, стартаптармен, креативті және білім беру жобаларымен жұмыс істеймін.' }
+  ];
+  var FALLBACK = {
+    ru:'Хороший вопрос! Чтобы ответить точно, лучше обсудить это лично. Свяжитесь со мной в Telegram или WhatsApp — отвечу подробно.',
+    kz:'Жақсы сұрақ! Нақты жауап беру үшін мұны жеке талқылаған дұрыс. Telegram немесе WhatsApp арқылы жазыңыз — толық жауап беремін.'
+  };
+  var QUICK_REPLIES = [
+    { ru:'Какие услуги?', kz:'Қандай қызметтер?', kwHit:1 },
+    { ru:'Сколько стоит?', kz:'Құны қанша?', kwHit:2 },
+    { ru:'Как связаться?', kz:'Байланысу?', kwHit:5 }
+  ];
+
+  function isKzNow(){ return html.getAttribute('data-lang') === 'kz'; }
+  function addMsg(text, who){
+    var div = document.createElement('div');
+    div.className = 'chat-msg ' + who;
+    div.textContent = text;
+    chatBody.appendChild(div);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+  function findAnswer(text){
+    var lower = text.toLowerCase();
+    for(var i=0;i<FAQ.length;i++){
+      var item = FAQ[i];
+      for(var j=0;j<item.kw.length;j++){
+        if(lower.indexOf(item.kw[j]) !== -1) return isKzNow() ? item.kz : item.ru;
+      }
+    }
+    return isKzNow() ? FALLBACK.kz : FALLBACK.ru;
+  }
+  function renderQuick(){
+    chatQuick.innerHTML = '';
+    QUICK_REPLIES.forEach(function(q){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = isKzNow() ? q.kz : q.ru;
+      btn.addEventListener('click', function(){
+        addMsg(isKzNow() ? q.kz : q.ru, 'user');
+        respond(isKzNow() ? q.kz : q.ru);
+      });
+      chatQuick.appendChild(btn);
+    });
+  }
+  function respond(userText){
+    exchangeCount++;
+    setTimeout(function(){
+      addMsg(findAnswer(userText), 'bot');
+    }, 380);
+  }
+  function initChat(){
+    if(chatOpened) return;
+    chatOpened = true;
+    addMsg(isKzNow()
+      ? 'Сәлеметсіз бе! Мен — Ұлданың виртуалды көмекшісімін. Қызметтер, пакеттер немесе портфолио туралы сұрай аласыз.'
+      : 'Здравствуйте! Я — виртуальный ассистент Улдана. Спросите об услугах, пакетах или портфолио.', 'bot');
+    renderQuick();
+  }
+  function openChat(){
+    chatPanel.classList.add('open');
+    initChat();
+  }
+  function closeChat(){ chatPanel.classList.remove('open'); }
+  if(chatFab) chatFab.addEventListener('click', function(){
+    chatPanel.classList.contains('open') ? closeChat() : openChat();
+  });
+  if(chatCloseBtn) chatCloseBtn.addEventListener('click', closeChat);
+  if(chatForm){
+    chatForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var val = chatInput.value.trim();
+      if(!val) return;
+      addMsg(val, 'user');
+      chatInput.value = '';
+      respond(val);
+    });
+  }
+
+})();
+</script>
+</body>
+</html>
