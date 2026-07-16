@@ -674,6 +674,33 @@ html[data-theme="dark"] .hero::after{background:radial-gradient(circle,rgba(217,
 }
 .service-result strong{color:var(--accent);display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;font-weight:600;}
 
+.service-cta{margin-top:24px;}
+.service-cta-btn{width:100%;justify-content:space-between;}
+.service-cta-btn svg{width:15px;height:15px;transition:transform .4s var(--ease-spring);flex-shrink:0;}
+.service-cta-btn.open svg{transform:rotate(135deg);}
+.service-cta-options{
+  display:flex;gap:10px;
+  max-height:0;
+  opacity:0;
+  overflow:hidden;
+  transition:max-height .45s var(--ease-spring),opacity .35s ease,margin-top .45s var(--ease-spring);
+}
+.service-cta-options.open{max-height:70px;opacity:1;margin-top:12px;}
+.service-cta-option{
+  flex:1;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:12px;
+  border-radius:12px;
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+  transition:transform .3s var(--ease-spring),box-shadow .3s var(--ease-spring);
+}
+.service-cta-option svg{width:16px;height:16px;flex-shrink:0;}
+.service-cta-option:hover{transform:translateY(-2px);}
+.service-cta-option.opt-tg{background:#29A9EA;}
+.service-cta-option.opt-wa{background:#25D366;}
+
 /* ===== CAROUSEL (shared) ===== */
 .carousel{
   position:relative;
@@ -1521,6 +1548,22 @@ html[data-theme="dark"] .chat-msg.bot{background:rgba(255,255,255,.06);}
           <span class="i18n-ru">Месячный контент-план и рекламные креативы — готовы за 24 часа вместо двух недель.</span>
           <span class="i18n-kz">Айлық контент-жоспар мен жарнамалық креативтер — екі аптаның орнына 24 сағатта дайын.</span>
         </div>
+        <div class="service-cta">
+          <button class="btn btn-ghost service-cta-btn" type="button" data-service-cta-toggle aria-expanded="false">
+            <span class="i18n-ru">Обсудить проект</span><span class="i18n-kz">Жобаны талқылау</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="service-cta-options">
+            <a class="service-cta-option opt-tg" href="https://t.me/UldanaO" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg>
+              Telegram
+            </a>
+            <a class="service-cta-option opt-wa" href="https://wa.me/77088007021?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
       </article>
 
       <article class="service-card">
@@ -1545,6 +1588,22 @@ html[data-theme="dark"] .chat-msg.bot{background:rgba(255,255,255,.06);}
           <span class="i18n-ru">Первый отклик клиенту — не через часы, а через секунды после заявки.</span>
           <span class="i18n-kz">Клиентке алғашқы жауап — сағаттар емес, өтінімнен кейін секундтар ішінде.</span>
         </div>
+        <div class="service-cta">
+          <button class="btn btn-ghost service-cta-btn" type="button" data-service-cta-toggle aria-expanded="false">
+            <span class="i18n-ru">Обсудить проект</span><span class="i18n-kz">Жобаны талқылау</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="service-cta-options">
+            <a class="service-cta-option opt-tg" href="https://t.me/UldanaO" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg>
+              Telegram
+            </a>
+            <a class="service-cta-option opt-wa" href="https://wa.me/77088007021?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
       </article>
 
       <article class="service-card">
@@ -1567,6 +1626,22 @@ html[data-theme="dark"] .chat-msg.bot{background:rgba(255,255,255,.06);}
           <strong><span class="i18n-ru">Пример результата</span><span class="i18n-kz">Нәтиже мысалы</span></strong>
           <span class="i18n-ru">Рекламный ролик, карусель и тексты к посту — готовы в течение дня.</span>
           <span class="i18n-kz">Жарнамалық роулик, карусель және пост мәтіндері — бір күн ішінде дайын.</span>
+        </div>
+        <div class="service-cta">
+          <button class="btn btn-ghost service-cta-btn" type="button" data-service-cta-toggle aria-expanded="false">
+            <span class="i18n-ru">Обсудить проект</span><span class="i18n-kz">Жобаны талқылау</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="service-cta-options">
+            <a class="service-cta-option opt-tg" href="https://t.me/UldanaO" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 4.5L2.7 11.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.9 5.7c.2.6.4.8.9.8s.7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.3 1.7-.8L23.9 5.6c.3-1.4-.5-2-1.4-1.6zM8.5 14.5l9.6-6.1c.4-.3.8-.1.5.2l-8 7.5-.3 3.3-1.5-4.9z"/></svg>
+              Telegram
+            </a>
+            <a class="service-cta-option opt-wa" href="https://wa.me/77088007021?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+              WhatsApp
+            </a>
+          </div>
         </div>
       </article>
 
@@ -2315,6 +2390,16 @@ html[data-theme="dark"] .chat-msg.bot{background:rgba(255,255,255,.06);}
   }
   document.querySelectorAll('.testi-play-btn').forEach(function(btn){
     btn.addEventListener('click', function(e){ e.stopPropagation(); showToast(); });
+  });
+
+  /* ---------- SERVICE CTA TOGGLE ---------- */
+  document.querySelectorAll('[data-service-cta-toggle]').forEach(function(btn){
+    var options = btn.parentElement.querySelector('.service-cta-options');
+    btn.addEventListener('click', function(){
+      var isOpen = options.classList.toggle('open');
+      btn.classList.toggle('open', isOpen);
+      btn.setAttribute('aria-expanded', isOpen);
+    });
   });
 
   /* ---------- CASES SHOW MORE ---------- */
